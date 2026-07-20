@@ -1,0 +1,13 @@
+torch>=2.1
+numpy
+scipy
+scikit-learn
+matplotlib
+Pillow
+transformers
+datasets
+peft
+
+# tokenizer backend required for the Japanese BERT pair (cl-tohoku/bert-base-japanese-v3)
+fugashi
+unidic-lite

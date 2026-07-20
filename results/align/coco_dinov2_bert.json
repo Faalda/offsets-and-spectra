@@ -1,0 +1,14 @@
+{
+  "dataset": "MS-COCO (clip-benchmark/wds_mscoco_captions)",
+  "src_encoder": "facebook/dinov2-base",
+  "tgt_encoder": "bert-base-uncased",
+  "n_train": 3000,
+  "n_test": 1000,
+  "dim": 768,
+  "identity": 0.0010000000474974513,
+  "ortho": 0.13199999928474426,
+  "cca": 0.14100000262260437,
+  "linear_ls": 0.07999999821186066,
+  "anisotropy": 0.651157796382904,
+  "mlp": 0.07199999690055847
+}

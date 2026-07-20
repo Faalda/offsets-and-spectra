@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# large regenerable caches — not needed to reproduce results, just to re-run experiments faster
+results/emb_cache/
+**/*.pt
+
+# paper source is submitted separately (double-blind review); not part of the code release
+paper/
+guidlines.txt

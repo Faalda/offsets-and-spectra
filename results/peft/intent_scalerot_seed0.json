@@ -1,0 +1,13 @@
+{
+  "task": "intent",
+  "model": "CAMeL-Lab/bert-base-arabic-camelbert-da",
+  "seed": 0,
+  "methods": {
+    "scalerot": {
+      "params": 7096320,
+      "val_mf1": 0.024541101356743814,
+      "test_acc": 0.1702127659574468,
+      "test_mf1": 0.02077922077922078
+    }
+  }
+}

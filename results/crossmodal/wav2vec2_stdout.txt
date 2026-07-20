@@ -1,0 +1,25 @@
+
+SLURP-TN cross-modal alignment  speech→text
+  speech jonatasgrosman/wav2vec2-large-xlsr-53-arabic
+  text   xlm-roberta-large
+train=2677  test=893  dim=1024
+------------------------------------------------------------
+method                    params      test P@1
+------------------------------------------------------------
+identity (raw gap)             —         0.000
+procrustes (ortho*)            —         0.069
+linear-ls                      —         0.060
+------------------------------------------------------------
+ogated                 1,050,625         0.030
+ortho                  1,049,600         0.029
+affine                 1,049,600         0.027
+dsv                        1,024         0.003
+gated                      2,049         0.003
+mixture                    8,192         0.003
+mlpgated                  34,816         0.003
+adapter                   33,808         0.002
+lowrank                    8,192         0.001
+matrix                 1,049,600         0.001
+diag                       2,048         0.000
+scaled                     1,025         0.000
+------------------------------------------------------------

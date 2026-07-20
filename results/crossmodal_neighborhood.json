@@ -1,0 +1,35 @@
+{
+  "mscoco": {
+    "dataset": "mscoco",
+    "p1_procrustes": 0.268,
+    "neighborhood_overlap": {
+      "5": 0.278,
+      "10": 0.322,
+      "20": 0.353
+    },
+    "trustworthiness_k10": 0.849,
+    "continuity_k10": 0.838
+  },
+  "flickr30k": {
+    "dataset": "flickr30k",
+    "p1_procrustes": 0.306,
+    "neighborhood_overlap": {
+      "5": 0.141,
+      "10": 0.158,
+      "20": 0.186
+    },
+    "trustworthiness_k10": 0.675,
+    "continuity_k10": 0.672
+  },
+  "flickr8k": {
+    "dataset": "flickr8k",
+    "p1_procrustes": 0.336,
+    "neighborhood_overlap": {
+      "5": 0.171,
+      "10": 0.215,
+      "20": 0.26
+    },
+    "trustworthiness_k10": 0.79,
+    "continuity_k10": 0.754
+  }
+}

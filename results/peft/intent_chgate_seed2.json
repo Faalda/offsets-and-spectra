@@ -1,0 +1,13 @@
+{
+  "task": "intent",
+  "model": "CAMeL-Lab/bert-base-arabic-camelbert-da",
+  "seed": 2,
+  "methods": {
+    "chgate": {
+      "params": 9216,
+      "val_mf1": 0.6833359993816602,
+      "test_acc": 0.723404255319149,
+      "test_mf1": 0.6442295144650931
+    }
+  }
+}

@@ -1,0 +1,33 @@
+en-de: ortho 0.790 | linear-ls 0.374 | identity 0.002
+Generating test split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1000/1000 [00:00<00:00, 280068.38 examples/s]
+Some weights of BertModel were not initialized from the model checkpoint at dccuchile/bert-base-spanish-wwm-cased and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+en-es: ortho 0.756 | linear-ls 0.506 | identity 0.000
+Generating test split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1000/1000 [00:00<00:00, 370292.58 examples/s]
+en-fr: ortho 0.518 | linear-ls 0.192 | identity 0.004
+Generating test split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1000/1000 [00:00<00:00, 367309.22 examples/s]
+en-it: ortho 0.600 | linear-ls 0.156 | identity 0.000
+Generating test split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1000/1000 [00:00<00:00, 389950.17 examples/s]
+en-pt: ortho 0.800 | linear-ls 0.528 | identity 0.002
+Generating test split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1000/1000 [00:00<00:00, 360366.35 examples/s]
+Some weights of BertModel were not initialized from the model checkpoint at GroNLP/bert-base-dutch-cased and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+en-nl: ortho 0.656 | linear-ls 0.394 | identity 0.002
+Generating test split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1000/1000 [00:00<00:00, 351252.32 examples/s]
+en-tr: ortho 0.758 | linear-ls 0.492 | identity 0.000
+Generating test split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1000/1000 [00:00<00:00, 372595.19 examples/s]
+en-fi: ortho 0.854 | linear-ls 0.532 | identity 0.002
+Generating test split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1000/1000 [00:00<00:00, 301163.50 examples/s]
+Some weights of the model checkpoint at DeepPavlov/rubert-base-cased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.decoder.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+en-ru: ortho 0.718 | linear-ls 0.302 | identity 0.004
+Generating test split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1000/1000 [00:00<00:00, 322762.91 examples/s]
+en-ar: ortho 0.372 | linear-ls 0.086 | identity 0.002
+Generating test split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1000/1000 [00:00<00:00, 184502.88 examples/s]
+en-zh: ortho 0.638 | linear-ls 0.336 | identity 0.002
+Generating test split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1000/1000 [00:00<00:00, 177086.93 examples/s]
+en-fa: ortho 0.716 | linear-ls 0.304 | identity 0.004
+
+AVG  ortho 0.681 | linear-ls 0.350  (n=12)
+saved results/tatoeba/summary.json

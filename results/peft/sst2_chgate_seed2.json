@@ -1,0 +1,13 @@
+{
+  "task": "sst2",
+  "model": "roberta-base",
+  "seed": 2,
+  "methods": {
+    "chgate": {
+      "params": 9216,
+      "val_mf1": 0.8711692697340649,
+      "test_acc": 0.8715596330275229,
+      "test_mf1": 0.8711692697340649
+    }
+  }
+}
