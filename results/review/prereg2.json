@@ -1,0 +1,12 @@
+{
+ "frozen_at": "2026-09-26 07:36:43",
+ "batch": "second held-out batch: COCO image<->text and image<->image gaps from independently trained encoders; multilingual sentiment transfer",
+ "predictions": {
+  "P1": "independently trained image->text gaps have a LOW linear ceiling: CCA(val lambda) test P@1 < 0.5 on every such gap (1000 candidates)",
+  "P2": "in image->text gaps, hubs SURVIVE whitening: N1 hub skew after CCA > 2 on a majority of gaps",
+  "P3": "independently trained image->image gaps behave like text gaps: CCA(val lambda) P@1 > 0.8 and hub skew after centring < 1.5 on a majority",
+  "P4": "selection rule (ID>=0.5 -> identity else CCA val-lambda) mean regret <= 0.01 over the batch (candidates identity/rotation/centred rotation/CCA/MLP)",
+  "P5": "sentiment transfer: retrieval P@1 does not rank maps for transfer (Spearman between map P@1 and mean transfer accuracy < 0.5 across maps), and the best label-free map is a centred rotation or truncated CCA, not the InfoNCE MLP"
+ },
+ "sha256_prereg1": "aef60f034395b0c9f19421ab01ee9d47a965f20d81aaf0a84ca21ecc4cc4646e"
+}

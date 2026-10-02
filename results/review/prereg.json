@@ -1,0 +1,35 @@
+{
+ "frozen_at": "2026-09-26 07:00:41",
+ "hypotheses": "\nFreeze the pre-registered hypotheses and prediction models BEFORE any held-out gap is\nembedded.  Writes results/review/prereg.json with sha256 of the dev result files.\n\nH1  centring gain  ~ mean dominance of the source (mean_dom_x): Spearman > 0 (one-sided p<.05)\nH2  whitening gain beyond centring ~ spectral mismatch A: Spearman > 0 (one-sided p<.05)\nH3  rule \"identity if ID>=0.5 else CCA(val lambda)\" has mean regret <= 0.01 on held-out gaps,\n    candidates {identity, rotation, centred rotation, CCA(val), MLP-InfoNCE}\nH4  1-D linear fits frozen here (dev data) predict held-out g_centre and g_whiten with lower\n    MAE than the frozen dev mean\n",
+ "fits": {
+  "g_centre": {
+   "predictor": "mean_dom_x",
+   "slope": 0.3683106841465364,
+   "intercept": -0.11156435392105032,
+   "dev_mean": 0.10985250371258433,
+   "n_dev": 41
+  },
+  "g_whiten": {
+   "predictor": "A",
+   "slope": 0.0972086191075741,
+   "intercept": -0.019070114988734795,
+   "dev_mean": 0.00556734422358071,
+   "n_dev": 41
+  }
+ },
+ "thresholds": {
+  "ID": 0.5,
+  "tie": 0.005,
+  "H3_max_mean_regret": 0.01
+ },
+ "dev_file_sha256": {
+  "decomposition.json": "e880a2f9ef8dac1ec0185973eb2b6d362d7bc16d0c11e6d9f7ceea0739a0af11",
+  "hub_dev.json": "311e2654fc4bb2e667edacf9b7502e3cc2f141394652d607ab2c3fe48b6127d8",
+  "selection.json": "8bb83eddedd7e4865cadb95b0ea11661e18819e9b22d8add0f3fd7436d1ffd63"
+ },
+ "heldout_gaps_planned": [
+  "mpnet-multilingual -> 17 monolingual BERTs (new source family)",
+  "e5 -> new languages: el, he, ro, hu, da, cs, uk, hi (where a 768-d monolingual BERT loads)",
+  "SLURP speech: whisper->wav2vec2, whisper->XLM-R, wav2vec2->XLM-R (new domain)"
+ ]
+}

@@ -1,0 +1,3516 @@
+{
+ "summary": {
+  "n_gaps": 51,
+  "all": {
+   "diag(submitted:A-branch)": {
+    "acc": 0.3137254901960784,
+    "mean_regret": 0.0724707478109528,
+    "max_regret": 0.8171936869621277
+   },
+   "diag(ID,ceiling)": {
+    "acc": 0.8627450980392157,
+    "mean_regret": 0.002603269529108908,
+    "max_regret": 0.0299999937415123
+   },
+   "diag(ID only)": {
+    "acc": 0.8823529411764706,
+    "mean_regret": 0.0020150343577067056,
+    "max_regret": 0.026679813861846924
+   },
+   "diag(ID only, cca lam=.1)": {
+    "acc": 0.6470588235294118,
+    "mean_regret": 0.05556162899615718,
+    "max_regret": 0.5209923386573792
+   },
+   "val-select": {
+    "acc": 0.803921568627451,
+    "mean_regret": 0.004378829516616522,
+    "max_regret": 0.06422924995422363
+   },
+   "always-identity": {
+    "acc": 0.058823529411764705,
+    "mean_regret": 0.886384907993488,
+    "max_regret": 0.9990118576679379
+   },
+   "always-ortho": {
+    "acc": 0.0392156862745098,
+    "mean_regret": 0.19972600897217133,
+    "max_regret": 0.8587786204880103
+   },
+   "always-rotation+centre": {
+    "acc": 0.5686274509803921,
+    "mean_regret": 0.10211934392139607,
+    "max_regret": 0.8358778562396765
+   },
+   "always-cca": {
+    "acc": 0.5882352941176471,
+    "mean_regret": 0.07062520583470662,
+    "max_regret": 0.5209923386573792
+   },
+   "always-cca-tuned": {
+    "acc": 0.8235294117647058,
+    "mean_regret": 0.015676353491988836,
+    "max_regret": 0.28787878155708313
+   },
+   "always-mlp-nce": {
+    "acc": 0.0392156862745098,
+    "mean_regret": 0.15067196169904634,
+    "max_regret": 0.8053435049951077
+   }
+  },
+  "cross-arch": {
+   "n": 7,
+   "diag(submitted:A-branch)": {
+    "acc": 0.2857142857142857,
+    "mean_regret": 0.25014116508620127,
+    "max_regret": 0.8171936869621277
+   },
+   "diag(ID,ceiling)": {
+    "acc": 1.0,
+    "mean_regret": 0.00014116082872663225,
+    "max_regret": 0.0009881258010864258
+   },
+   "diag(ID only)": {
+    "acc": 1.0,
+    "mean_regret": 0.00014116082872663225,
+    "max_regret": 0.0009881258010864258
+   },
+   "diag(ID only, cca lam=.1)": {
+    "acc": 0.5714285714285714,
+    "mean_regret": 0.01369283880506243,
+    "max_regret": 0.04743081331253052
+   },
+   "val-select": {
+    "acc": 0.8571428571428571,
+    "mean_regret": 0.0033879194940839496,
+    "max_regret": 0.020750999450683594
+   },
+   "always-identity": {
+    "acc": 0.0,
+    "mean_regret": 0.9930830068354096,
+    "max_regret": 0.9990118576679379
+   },
+   "always-ortho": {
+    "acc": 0.14285714285714285,
+    "mean_regret": 0.3013834059238434,
+    "max_regret": 0.8171936869621277
+   },
+   "always-rotation+centre": {
+    "acc": 0.5714285714285714,
+    "mean_regret": 0.016374937125614712,
+    "max_regret": 0.05533599853515625
+   },
+   "always-cca": {
+    "acc": 0.5714285714285714,
+    "mean_regret": 0.01369283880506243,
+    "max_regret": 0.04743081331253052
+   },
+   "always-cca-tuned": {
+    "acc": 1.0,
+    "mean_regret": 0.00014116082872663225,
+    "max_regret": 0.0009881258010864258
+   },
+   "always-mlp-nce": {
+    "acc": 0.0,
+    "mean_regret": 0.143280633858272,
+    "max_regret": 0.36166006326675415
+   }
+  },
+  "cross-lingual": {
+   "n": 34,
+   "diag(submitted:A-branch)": {
+    "acc": 0.14705882352941177,
+    "mean_regret": 0.05632411732393153,
+    "max_regret": 0.23221343755722046
+   },
+   "diag(ID,ceiling)": {
+    "acc": 0.8235294117647058,
+    "mean_regret": 0.002993489012998693,
+    "max_regret": 0.026679813861846924
+   },
+   "diag(ID only)": {
+    "acc": 0.8235294117647058,
+    "mean_regret": 0.002993489012998693,
+    "max_regret": 0.026679813861846924
+   },
+   "diag(ID only, cca lam=.1)": {
+    "acc": 0.7352941176470589,
+    "mean_regret": 0.004679145181880277,
+    "max_regret": 0.02173912525177002
+   },
+   "val-select": {
+    "acc": 0.7352941176470589,
+    "mean_regret": 0.005870731437907499,
+    "max_regret": 0.06422924995422363
+   },
+   "always-identity": {
+    "acc": 0.0,
+    "mean_regret": 0.9690478997688521,
+    "max_regret": 0.9950593113899231
+   },
+   "always-ortho": {
+    "acc": 0.0,
+    "mean_regret": 0.08050454013487872,
+    "max_regret": 0.2450593113899231
+   },
+   "always-rotation+centre": {
+    "acc": 0.7058823529411765,
+    "mean_regret": 0.006713558645809398,
+    "max_regret": 0.033596813678741455
+   },
+   "always-cca": {
+    "acc": 0.7352941176470589,
+    "mean_regret": 0.004679145181880277,
+    "max_regret": 0.02173912525177002
+   },
+   "always-cca-tuned": {
+    "acc": 0.8235294117647058,
+    "mean_regret": 0.002993489012998693,
+    "max_regret": 0.026679813861846924
+   },
+   "always-mlp-nce": {
+    "acc": 0.029411764705882353,
+    "mean_regret": 0.055713790304520554,
+    "max_regret": 0.19664031267166138
+   }
+  },
+  "cross-modal": {
+   "n": 6,
+   "diag(submitted:A-branch)": {
+    "acc": 0.8333333333333334,
+    "mean_regret": 0.004999998956918716,
+    "max_regret": 0.0299999937415123
+   },
+   "diag(ID,ceiling)": {
+    "acc": 0.8333333333333334,
+    "mean_regret": 0.004999998956918716,
+    "max_regret": 0.0299999937415123
+   },
+   "diag(ID only)": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "diag(ID only, cca lam=.1)": {
+    "acc": 0.0,
+    "mean_regret": 0.42978371183077496,
+    "max_regret": 0.5209923386573792
+   },
+   "val-select": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "always-identity": {
+    "acc": 0.0,
+    "mean_regret": 0.7180661587238623,
+    "max_regret": 0.8606870174407959
+   },
+   "always-ortho": {
+    "acc": 0.0,
+    "mean_regret": 0.6946424947236665,
+    "max_regret": 0.8587786204880103
+   },
+   "always-rotation+centre": {
+    "acc": 0.0,
+    "mean_regret": 0.6744223915350934,
+    "max_regret": 0.8358778562396765
+   },
+   "always-cca": {
+    "acc": 0.0,
+    "mean_regret": 0.42978371183077496,
+    "max_regret": 0.5209923386573792
+   },
+   "always-cca-tuned": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "always-mlp-nce": {
+    "acc": 0.0,
+    "mean_regret": 0.6548091607789198,
+    "max_regret": 0.8053435049951077
+   }
+  },
+  "isotropic": {
+   "n": 1,
+   "diag(submitted:A-branch)": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "diag(ID,ceiling)": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "diag(ID only)": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "diag(ID only, cca lam=.1)": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "val-select": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "always-identity": {
+    "acc": 0.0,
+    "mean_regret": 0.9980237153358757,
+    "max_regret": 0.9980237153358757
+   },
+   "always-ortho": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "always-rotation+centre": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "always-cca": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "always-cca-tuned": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "always-mlp-nce": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   }
+  },
+  "jointly-trained": {
+   "n": 3,
+   "diag(submitted:A-branch)": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "diag(ID,ceiling)": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "diag(ID only)": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "diag(ID only, cca lam=.1)": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "val-select": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "always-identity": {
+    "acc": 1.0,
+    "mean_regret": 0.0,
+    "max_regret": 0.0
+   },
+   "always-ortho": {
+    "acc": 0.0,
+    "mean_regret": 0.39044442772865295,
+    "max_regret": 0.4575757384300232
+   },
+   "always-rotation+centre": {
+    "acc": 0.0,
+    "mean_regret": 0.2728888789812724,
+    "max_regret": 0.3060605823993683
+   },
+   "always-cca": {
+    "acc": 0.0,
+    "mean_regret": 0.2560808062553406,
+    "max_regret": 0.28787878155708313
+   },
+   "always-cca-tuned": {
+    "acc": 0.0,
+    "mean_regret": 0.23224242528279623,
+    "max_regret": 0.28787878155708313
+   },
+   "always-mlp-nce": {
+    "acc": 0.0,
+    "mean_regret": 0.28606059153874713,
+    "max_regret": 0.3636363446712494
+   }
+  }
+ },
+ "rows": [
+  {
+   "gap": "ctrl/rot+noise",
+   "regime": "isotropic",
+   "id_train": 0.0,
+   "A": 0.1557692140340805,
+   "val": {
+    "identity": 0.0,
+    "ortho": 1.0,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 1.0
+   },
+   "test": {
+    "identity": 0.0019762846641242504,
+    "ortho": 1.0,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 1.0
+   },
+   "oracle": "ortho",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "ortho",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0,
+    "always-identity": 0.9980237153358757,
+    "always-ortho": 0.0,
+    "always-rotation+centre": 0.0,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.0
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": true,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": true
+   }
+  },
+  {
+   "gap": "e5/de",
+   "regime": "cross-lingual",
+   "id_train": 0.0,
+   "A": 0.25691837072372437,
+   "val": {
+    "identity": 0.0,
+    "ortho": 0.979899525642395,
+    "rotation+centre": 0.9949748516082764,
+    "cca": 0.9949748516082764,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9949748516082764
+   },
+   "test": {
+    "identity": 0.0,
+    "ortho": 0.9328063130378723,
+    "rotation+centre": 0.9841897487640381,
+    "cca": 0.9861660003662109,
+    "cca-tuned": 0.9861660003662109,
+    "mlp-nce": 0.959486186504364
+   },
+   "oracle": "cca",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.05335968732833862,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0,
+    "always-identity": 0.9861660003662109,
+    "always-ortho": 0.05335968732833862,
+    "always-rotation+centre": 0.0019762516021728516,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.026679813861846924
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/ru",
+   "regime": "cross-lingual",
+   "id_train": 0.001003009034320712,
+   "A": 0.19465410709381104,
+   "val": {
+    "identity": 0.015075377188622952,
+    "ortho": 0.9447236061096191,
+    "rotation+centre": 0.9849246144294739,
+    "cca": 0.9849246144294739,
+    "cca-tuned": 0.9849246144294739,
+    "mlp-nce": 0.9798994660377502
+   },
+   "test": {
+    "identity": 0.0019762846641242504,
+    "ortho": 0.8389328122138977,
+    "rotation+centre": 0.9693675637245178,
+    "cca": 0.970355749130249,
+    "cca-tuned": 0.970355749130249,
+    "mlp-nce": 0.9347826242446899
+   },
+   "oracle": "cca",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.13142293691635132,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0009881854057312012,
+    "always-identity": 0.9683794644661248,
+    "always-ortho": 0.13142293691635132,
+    "always-rotation+centre": 0.0009881854057312012,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.03557312488555908
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/ar",
+   "regime": "cross-lingual",
+   "id_train": 0.002006018068641424,
+   "A": 0.36416250467300415,
+   "val": {
+    "identity": 0.01005025114864111,
+    "ortho": 0.7738693356513977,
+    "rotation+centre": 0.9246231317520142,
+    "cca": 0.9246231317520142,
+    "cca-tuned": 0.9346733689308167,
+    "mlp-nce": 0.8341708183288574
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.5592885613441467,
+    "rotation+centre": 0.752964437007904,
+    "cca": 0.7559288740158081,
+    "cca-tuned": 0.7747035622596741,
+    "mlp-nce": 0.5780632495880127
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "cca-tuned",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.018774688243865967,
+    "val-select": 0.0,
+    "always-identity": 0.773715419927612,
+    "always-ortho": 0.21541500091552734,
+    "always-rotation+centre": 0.02173912525177002,
+    "always-cca": 0.018774688243865967,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.19664031267166138
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/zh",
+   "regime": "cross-lingual",
+   "id_train": 0.001003009034320712,
+   "A": 0.18046876788139343,
+   "val": {
+    "identity": 0.01005025114864111,
+    "ortho": 0.9447236061096191,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9748743772506714
+   },
+   "test": {
+    "identity": 0.0,
+    "ortho": 0.8695651888847351,
+    "rotation+centre": 0.9822134375572205,
+    "cca": 0.9822134375572205,
+    "cca-tuned": 0.9822134375572205,
+    "mlp-nce": 0.9001976251602173
+   },
+   "oracle": "rotation+centre",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.11264824867248535,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0,
+    "always-identity": 0.9822134375572205,
+    "always-ortho": 0.11264824867248535,
+    "always-rotation+centre": 0.0,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.08201581239700317
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/fr",
+   "regime": "cross-lingual",
+   "id_train": 0.002006018068641424,
+   "A": 0.4924756586551666,
+   "val": {
+    "identity": 0.0,
+    "ortho": 0.9447236061096191,
+    "rotation+centre": 0.9849246144294739,
+    "cca": 0.9899497628211975,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9597989916801453
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.8705533742904663,
+    "rotation+centre": 0.9604743123054504,
+    "cca": 0.9713438749313354,
+    "cca-tuned": 0.9861660003662109,
+    "mlp-nce": 0.8517786264419556
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "cca-tuned",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.014822125434875488,
+    "val-select": 0.0,
+    "always-identity": 0.9851778580341488,
+    "always-ortho": 0.11561262607574463,
+    "always-rotation+centre": 0.025691688060760498,
+    "always-cca": 0.014822125434875488,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.13438737392425537
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/es",
+   "regime": "cross-lingual",
+   "id_train": 0.0,
+   "A": 0.20504847168922424,
+   "val": {
+    "identity": 0.01005025114864111,
+    "ortho": 0.9849246144294739,
+    "rotation+centre": 0.9949748516082764,
+    "cca": 0.9949748516082764,
+    "cca-tuned": 1.0,
+    "mlp-nce": 1.0
+   },
+   "test": {
+    "identity": 0.0019762846641242504,
+    "ortho": 0.9229248762130737,
+    "rotation+centre": 0.981225311756134,
+    "cca": 0.981225311756134,
+    "cca-tuned": 0.9713438749313354,
+    "mlp-nce": 0.9328063130378723
+   },
+   "oracle": "rotation+centre",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0583004355430603,
+    "diag(ID,ceiling)": 0.009881436824798584,
+    "diag(ID only)": 0.009881436824798584,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.009881436824798584,
+    "always-identity": 0.9792490270920098,
+    "always-ortho": 0.0583004355430603,
+    "always-rotation+centre": 0.0,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.009881436824798584,
+    "always-mlp-nce": 0.04841899871826172
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": false,
+    "diag(ID only)": false,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": false,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": false,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/it",
+   "regime": "cross-lingual",
+   "id_train": 0.0,
+   "A": 0.2771719694137573,
+   "val": {
+    "identity": 0.0,
+    "ortho": 0.8492462038993835,
+    "rotation+centre": 0.9396985173225403,
+    "cca": 0.9497487545013428,
+    "cca-tuned": 0.9597989916801453,
+    "mlp-nce": 0.8793969750404358
+   },
+   "test": {
+    "identity": 0.0,
+    "ortho": 0.6837944388389587,
+    "rotation+centre": 0.8824110627174377,
+    "cca": 0.8942687511444092,
+    "cca-tuned": 0.9160078763961792,
+    "mlp-nce": 0.731225311756134
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.23221343755722046,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.02173912525177002,
+    "val-select": 0.0,
+    "always-identity": 0.9160078763961792,
+    "always-ortho": 0.23221343755722046,
+    "always-rotation+centre": 0.033596813678741455,
+    "always-cca": 0.02173912525177002,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.18478256464004517
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/pt",
+   "regime": "cross-lingual",
+   "id_train": 0.001003009034320712,
+   "A": 0.22994181513786316,
+   "val": {
+    "identity": 0.005025125574320555,
+    "ortho": 0.9748743772506714,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 1.0
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.95652174949646,
+    "rotation+centre": 0.9930830001831055,
+    "cca": 0.9930830001831055,
+    "cca-tuned": 0.9851778745651245,
+    "mlp-nce": 0.9792490005493164
+   },
+   "oracle": "rotation+centre",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.03656125068664551,
+    "diag(ID,ceiling)": 0.007905125617980957,
+    "diag(ID only)": 0.007905125617980957,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0,
+    "always-identity": 0.9920948578510433,
+    "always-ortho": 0.03656125068664551,
+    "always-rotation+centre": 0.0,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.007905125617980957,
+    "always-mlp-nce": 0.013833999633789062
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": false,
+    "diag(ID only)": false,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": false,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/nl",
+   "regime": "cross-lingual",
+   "id_train": 0.0,
+   "A": 0.17803283035755157,
+   "val": {
+    "identity": 0.01005025114864111,
+    "ortho": 0.929648220539093,
+    "rotation+centre": 0.979899525642395,
+    "cca": 0.979899525642395,
+    "cca-tuned": 0.9849246144294739,
+    "mlp-nce": 0.9949748516082764
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.8507905006408691,
+    "rotation+centre": 0.9644268751144409,
+    "cca": 0.9644268751144409,
+    "cca-tuned": 0.937747061252594,
+    "mlp-nce": 0.9001976251602173
+   },
+   "oracle": "rotation+centre",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "mlp-nce",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.11363637447357178,
+    "diag(ID,ceiling)": 0.026679813861846924,
+    "diag(ID only)": 0.026679813861846924,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.06422924995422363,
+    "always-identity": 0.9634387327823788,
+    "always-ortho": 0.11363637447357178,
+    "always-rotation+centre": 0.0,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.026679813861846924,
+    "always-mlp-nce": 0.06422924995422363
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": false,
+    "diag(ID only)": false,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": false,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": false,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/tr",
+   "regime": "cross-lingual",
+   "id_train": 0.002006018068641424,
+   "A": 0.21324239671230316,
+   "val": {
+    "identity": 0.005025125574320555,
+    "ortho": 0.9698492288589478,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9949748516082764
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.9031620621681213,
+    "rotation+centre": 0.9851778745651245,
+    "cca": 0.9861660003662109,
+    "cca-tuned": 0.9861660003662109,
+    "mlp-nce": 0.9407114386558533
+   },
+   "oracle": "cca",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0830039381980896,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0009881258010864258,
+    "always-identity": 0.9851778580341488,
+    "always-ortho": 0.0830039381980896,
+    "always-rotation+centre": 0.0009881258010864258,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.045454561710357666
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/fi",
+   "regime": "cross-lingual",
+   "id_train": 0.001003009034320712,
+   "A": 0.17005792260169983,
+   "val": {
+    "identity": 0.0,
+    "ortho": 0.979899525642395,
+    "rotation+centre": 0.9949748516082764,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9949748516082764
+   },
+   "test": {
+    "identity": 0.0,
+    "ortho": 0.9150197505950928,
+    "rotation+centre": 0.9762845635414124,
+    "cca": 0.9752964377403259,
+    "cca-tuned": 0.9713438749313354,
+    "mlp-nce": 0.9555336236953735
+   },
+   "oracle": "rotation+centre",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.06126481294631958,
+    "diag(ID,ceiling)": 0.004940688610076904,
+    "diag(ID only)": 0.004940688610076904,
+    "diag(ID only, cca lam=.1)": 0.0009881258010864258,
+    "val-select": 0.0009881258010864258,
+    "always-identity": 0.9762845635414124,
+    "always-ortho": 0.06126481294631958,
+    "always-rotation+centre": 0.0,
+    "always-cca": 0.0009881258010864258,
+    "always-cca-tuned": 0.004940688610076904,
+    "always-mlp-nce": 0.02075093984603882
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/fa",
+   "regime": "cross-lingual",
+   "id_train": 0.0,
+   "A": 0.2712901830673218,
+   "val": {
+    "identity": 0.01005025114864111,
+    "ortho": 0.9547738432884216,
+    "rotation+centre": 0.9899497628211975,
+    "cca": 0.9949748516082764,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9849246144294739
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.8695651888847351,
+    "rotation+centre": 0.970355749130249,
+    "cca": 0.9713438749313354,
+    "cca-tuned": 0.9772727489471436,
+    "mlp-nce": 0.9081027507781982
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.10770756006240845,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0059288740158081055,
+    "val-select": 0.0,
+    "always-identity": 0.9762846066150814,
+    "always-ortho": 0.10770756006240845,
+    "always-rotation+centre": 0.006916999816894531,
+    "always-cca": 0.0059288740158081055,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.06916999816894531
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/ja",
+   "regime": "cross-lingual",
+   "id_train": 0.001003009034320712,
+   "A": 0.27110111713409424,
+   "val": {
+    "identity": 0.0,
+    "ortho": 0.9849246144294739,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9798994660377502
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.8863636255264282,
+    "rotation+centre": 0.9832015633583069,
+    "cca": 0.9832015633583069,
+    "cca-tuned": 0.9861660003662109,
+    "mlp-nce": 0.9318181872367859
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.09980237483978271,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0029644370079040527,
+    "val-select": 0.0029644370079040527,
+    "always-identity": 0.9851778580341488,
+    "always-ortho": 0.09980237483978271,
+    "always-rotation+centre": 0.0029644370079040527,
+    "always-cca": 0.0029644370079040527,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.05434781312942505
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/ko",
+   "regime": "cross-lingual",
+   "id_train": 0.0,
+   "A": 0.20075291395187378,
+   "val": {
+    "identity": 0.01005025114864111,
+    "ortho": 0.9849246144294739,
+    "rotation+centre": 0.9899497628211975,
+    "cca": 0.9899497628211975,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9849246144294739
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.9150197505950928,
+    "rotation+centre": 0.9752964377403259,
+    "cca": 0.9772727489471436,
+    "cca-tuned": 0.9802371263504028,
+    "mlp-nce": 0.9387351870536804
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.06521737575531006,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0029643774032592773,
+    "val-select": 0.0,
+    "always-identity": 0.9792489840183407,
+    "always-ortho": 0.06521737575531006,
+    "always-rotation+centre": 0.004940688610076904,
+    "always-cca": 0.0029643774032592773,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.04150193929672241
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/pl",
+   "regime": "cross-lingual",
+   "id_train": 0.0,
+   "A": 0.24063728749752045,
+   "val": {
+    "identity": 0.0,
+    "ortho": 0.9748743772506714,
+    "rotation+centre": 0.9849246144294739,
+    "cca": 0.9849246144294739,
+    "cca-tuned": 0.9899497628211975,
+    "mlp-nce": 0.9899497628211975
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.9239130616188049,
+    "rotation+centre": 0.9733201861381531,
+    "cca": 0.9733201861381531,
+    "cca-tuned": 0.948616623878479,
+    "mlp-nce": 0.95652174949646
+   },
+   "oracle": "rotation+centre",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.049407124519348145,
+    "diag(ID,ceiling)": 0.024703562259674072,
+    "diag(ID only)": 0.024703562259674072,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.024703562259674072,
+    "always-identity": 0.972332043806091,
+    "always-ortho": 0.049407124519348145,
+    "always-rotation+centre": 0.0,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.024703562259674072,
+    "always-mlp-nce": 0.016798436641693115
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": false,
+    "diag(ID only)": false,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": false,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": false,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/sv",
+   "regime": "cross-lingual",
+   "id_train": 0.002006018068641424,
+   "A": 0.19238929450511932,
+   "val": {
+    "identity": 0.0,
+    "ortho": 0.9849246144294739,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9949748516082764
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.9258893132209778,
+    "rotation+centre": 0.9911067485809326,
+    "cca": 0.9911067485809326,
+    "cca-tuned": 0.9851778745651245,
+    "mlp-nce": 0.948616623878479
+   },
+   "oracle": "rotation+centre",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.06521743535995483,
+    "diag(ID,ceiling)": 0.0059288740158081055,
+    "diag(ID only)": 0.0059288740158081055,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0,
+    "always-identity": 0.9901186062488705,
+    "always-ortho": 0.06521743535995483,
+    "always-rotation+centre": 0.0,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.0059288740158081055,
+    "always-mlp-nce": 0.04249012470245361
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": false,
+    "diag(ID only)": false,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": false,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "e5/id",
+   "regime": "cross-lingual",
+   "id_train": 0.001003009034320712,
+   "A": 0.24645353853702545,
+   "val": {
+    "identity": 0.005025125574320555,
+    "ortho": 0.9748743772506714,
+    "rotation+centre": 0.9949748516082764,
+    "cca": 0.9949748516082764,
+    "cca-tuned": 0.9949748516082764,
+    "mlp-nce": 0.9949748516082764
+   },
+   "test": {
+    "identity": 0.0,
+    "ortho": 0.9051383137702942,
+    "rotation+centre": 0.9693675637245178,
+    "cca": 0.970355749130249,
+    "cca-tuned": 0.9752964377403259,
+    "mlp-nce": 0.9446640610694885
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.07015812397003174,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.004940688610076904,
+    "val-select": 0.0059288740158081055,
+    "always-identity": 0.9752964377403259,
+    "always-ortho": 0.07015812397003174,
+    "always-rotation+centre": 0.0059288740158081055,
+    "always-cca": 0.004940688610076904,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.030632376670837402
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": false,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/de",
+   "regime": "cross-lingual",
+   "id_train": 0.001003009034320712,
+   "A": 0.26958659291267395,
+   "val": {
+    "identity": 0.015075377188622952,
+    "ortho": 0.9849246144294739,
+    "rotation+centre": 0.9949748516082764,
+    "cca": 0.9949748516082764,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9949748516082764
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.9723320007324219,
+    "rotation+centre": 0.9940711259841919,
+    "cca": 0.9940711259841919,
+    "cca-tuned": 0.9940711259841919,
+    "mlp-nce": 0.9792490005493164
+   },
+   "oracle": "rotation+centre",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.02173912525177002,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0,
+    "always-identity": 0.9930829836521298,
+    "always-ortho": 0.02173912525177002,
+    "always-rotation+centre": 0.0,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.014822125434875488
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/ru",
+   "regime": "cross-lingual",
+   "id_train": 0.0,
+   "A": 0.21049368381500244,
+   "val": {
+    "identity": 0.005025125574320555,
+    "ortho": 0.9849246144294739,
+    "rotation+centre": 0.9899497628211975,
+    "cca": 0.9899497628211975,
+    "cca-tuned": 0.9899497628211975,
+    "mlp-nce": 0.9949748516082764
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.9308300614356995,
+    "rotation+centre": 0.9723320007324219,
+    "cca": 0.9743083119392395,
+    "cca-tuned": 0.9743083119392395,
+    "mlp-nce": 0.95652174949646
+   },
+   "oracle": "cca",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "mlp-nce",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.04347825050354004,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.01778656244277954,
+    "always-identity": 0.9733201696071774,
+    "always-ortho": 0.04347825050354004,
+    "always-rotation+centre": 0.001976311206817627,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.01778656244277954
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": false,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/ar",
+   "regime": "cross-lingual",
+   "id_train": 0.0,
+   "A": 0.41755378246307373,
+   "val": {
+    "identity": 0.0,
+    "ortho": 0.8140703439712524,
+    "rotation+centre": 0.909547746181488,
+    "cca": 0.9145728349685669,
+    "cca-tuned": 0.9246231317520142,
+    "mlp-nce": 0.8442211151123047
+   },
+   "test": {
+    "identity": 0.0,
+    "ortho": 0.6946640610694885,
+    "rotation+centre": 0.8083003759384155,
+    "cca": 0.8102766871452332,
+    "cca-tuned": 0.8310276865959167,
+    "mlp-nce": 0.6788537502288818
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "cca-tuned",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.020750999450683594,
+    "val-select": 0.0,
+    "always-identity": 0.8310276865959167,
+    "always-ortho": 0.13636362552642822,
+    "always-rotation+centre": 0.02272731065750122,
+    "always-cca": 0.020750999450683594,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.1521739363670349
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/zh",
+   "regime": "cross-lingual",
+   "id_train": 0.002006018068641424,
+   "A": 0.2565746009349823,
+   "val": {
+    "identity": 0.01005025114864111,
+    "ortho": 0.9597989916801453,
+    "rotation+centre": 0.9949748516082764,
+    "cca": 0.9949748516082764,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9899497628211975
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.9011857509613037,
+    "rotation+centre": 0.9861660003662109,
+    "cca": 0.9871541261672974,
+    "cca-tuned": 0.989130437374115,
+    "mlp-nce": 0.9258893132209778
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.08794468641281128,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.001976311206817627,
+    "val-select": 0.0,
+    "always-identity": 0.9881422950420529,
+    "always-ortho": 0.08794468641281128,
+    "always-rotation+centre": 0.0029644370079040527,
+    "always-cca": 0.001976311206817627,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.06324112415313721
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/fr",
+   "regime": "cross-lingual",
+   "id_train": 0.0,
+   "A": 0.5438658595085144,
+   "val": {
+    "identity": 0.005025125574320555,
+    "ortho": 0.8793969750404358,
+    "rotation+centre": 0.9899497628211975,
+    "cca": 0.9949748516082764,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9497487545013428
+   },
+   "test": {
+    "identity": 0.0019762846641242504,
+    "ortho": 0.75,
+    "rotation+centre": 0.9644268751144409,
+    "cca": 0.9792490005493164,
+    "cca-tuned": 0.9950593113899231,
+    "mlp-nce": 0.8764821887016296
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "cca-tuned",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.01581031084060669,
+    "val-select": 0.0,
+    "always-identity": 0.9930830267257988,
+    "always-ortho": 0.2450593113899231,
+    "always-rotation+centre": 0.030632436275482178,
+    "always-cca": 0.01581031084060669,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.11857712268829346
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/es",
+   "regime": "cross-lingual",
+   "id_train": 0.0,
+   "A": 0.23549215495586395,
+   "val": {
+    "identity": 0.0,
+    "ortho": 0.9748743772506714,
+    "rotation+centre": 0.9949748516082764,
+    "cca": 0.9949748516082764,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9949748516082764
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.9515810012817383,
+    "rotation+centre": 0.9861660003662109,
+    "cca": 0.9861660003662109,
+    "cca-tuned": 0.9881423115730286,
+    "mlp-nce": 0.9446640610694885
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.03656131029129028,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.001976311206817627,
+    "val-select": 0.0,
+    "always-identity": 0.9871541692409664,
+    "always-ortho": 0.03656131029129028,
+    "always-rotation+centre": 0.001976311206817627,
+    "always-cca": 0.001976311206817627,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.04347825050354004
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/it",
+   "regime": "cross-lingual",
+   "id_train": 0.002006018068641424,
+   "A": 0.3503354787826538,
+   "val": {
+    "identity": 0.005025125574320555,
+    "ortho": 0.9396985173225403,
+    "rotation+centre": 0.9698492288589478,
+    "cca": 0.979899525642395,
+    "cca-tuned": 0.979899525642395,
+    "mlp-nce": 0.9246231317520142
+   },
+   "test": {
+    "identity": 0.0019762846641242504,
+    "ortho": 0.8142292499542236,
+    "rotation+centre": 0.8922924995422363,
+    "cca": 0.9051383137702942,
+    "cca-tuned": 0.9239130616188049,
+    "mlp-nce": 0.8132411241531372
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "cca-tuned",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.018774747848510742,
+    "val-select": 0.018774747848510742,
+    "always-identity": 0.9219367769546807,
+    "always-ortho": 0.1096838116645813,
+    "always-rotation+centre": 0.031620562076568604,
+    "always-cca": 0.018774747848510742,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.11067193746566772
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": false,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/pt",
+   "regime": "cross-lingual",
+   "id_train": 0.0030090271029621363,
+   "A": 0.2423223853111267,
+   "val": {
+    "identity": 0.01005025114864111,
+    "ortho": 0.979899525642395,
+    "rotation+centre": 0.9949748516082764,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9949748516082764
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.9723320007324219,
+    "rotation+centre": 0.9940711259841919,
+    "cca": 0.9950593113899231,
+    "cca-tuned": 0.9960474371910095,
+    "mlp-nce": 0.981225311756134
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.023715436458587646,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0009881258010864258,
+    "val-select": 0.0009881258010864258,
+    "always-identity": 0.9950592948589474,
+    "always-ortho": 0.023715436458587646,
+    "always-rotation+centre": 0.001976311206817627,
+    "always-cca": 0.0009881258010864258,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.014822125434875488
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/nl",
+   "regime": "cross-lingual",
+   "id_train": 0.0,
+   "A": 0.2084868848323822,
+   "val": {
+    "identity": 0.005025125574320555,
+    "ortho": 0.9497487545013428,
+    "rotation+centre": 0.9899497628211975,
+    "cca": 0.9899497628211975,
+    "cca-tuned": 0.9899497628211975,
+    "mlp-nce": 0.9899497628211975
+   },
+   "test": {
+    "identity": 0.0,
+    "ortho": 0.926877498626709,
+    "rotation+centre": 0.97826087474823,
+    "cca": 0.981225311756134,
+    "cca-tuned": 0.9654150009155273,
+    "mlp-nce": 0.9189723134040833
+   },
+   "oracle": "cca",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.05434781312942505,
+    "diag(ID,ceiling)": 0.01581031084060669,
+    "diag(ID only)": 0.01581031084060669,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0029644370079040527,
+    "always-identity": 0.981225311756134,
+    "always-ortho": 0.05434781312942505,
+    "always-rotation+centre": 0.0029644370079040527,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.01581031084060669,
+    "always-mlp-nce": 0.06225299835205078
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": false,
+    "diag(ID only)": false,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": false,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/tr",
+   "regime": "cross-lingual",
+   "id_train": 0.001003009034320712,
+   "A": 0.28068307042121887,
+   "val": {
+    "identity": 0.01005025114864111,
+    "ortho": 0.9698492288589478,
+    "rotation+centre": 0.9899497628211975,
+    "cca": 0.9899497628211975,
+    "cca-tuned": 0.9949748516082764,
+    "mlp-nce": 1.0
+   },
+   "test": {
+    "identity": 0.0,
+    "ortho": 0.9407114386558533,
+    "rotation+centre": 0.9950593113899231,
+    "cca": 0.9950593113899231,
+    "cca-tuned": 0.992094874382019,
+    "mlp-nce": 0.9693675637245178
+   },
+   "oracle": "rotation+centre",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "mlp-nce",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.054347872734069824,
+    "diag(ID,ceiling)": 0.0029644370079040527,
+    "diag(ID only)": 0.0029644370079040527,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.025691747665405273,
+    "always-identity": 0.9950593113899231,
+    "always-ortho": 0.054347872734069824,
+    "always-rotation+centre": 0.0,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.0029644370079040527,
+    "always-mlp-nce": 0.025691747665405273
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": false,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/fi",
+   "regime": "cross-lingual",
+   "id_train": 0.001003009034320712,
+   "A": 0.23624038696289062,
+   "val": {
+    "identity": 0.015075377188622952,
+    "ortho": 0.9849246144294739,
+    "rotation+centre": 0.9899497628211975,
+    "cca": 0.9899497628211975,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9899497628211975
+   },
+   "test": {
+    "identity": 0.0019762846641242504,
+    "ortho": 0.959486186504364,
+    "rotation+centre": 0.9841897487640381,
+    "cca": 0.9841897487640381,
+    "cca-tuned": 0.9841897487640381,
+    "mlp-nce": 0.9762845635414124
+   },
+   "oracle": "rotation+centre",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.024703562259674072,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0,
+    "always-identity": 0.9822134640999138,
+    "always-ortho": 0.024703562259674072,
+    "always-rotation+centre": 0.0,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.007905185222625732
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/fa",
+   "regime": "cross-lingual",
+   "id_train": 0.0030090271029621363,
+   "A": 0.2589423954486847,
+   "val": {
+    "identity": 0.015075377188622952,
+    "ortho": 0.9648241400718689,
+    "rotation+centre": 0.9899497628211975,
+    "cca": 0.9899497628211975,
+    "cca-tuned": 0.9949748516082764,
+    "mlp-nce": 0.9849246144294739
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.9416996240615845,
+    "rotation+centre": 0.9832015633583069,
+    "cca": 0.9832015633583069,
+    "cca-tuned": 0.9871541261672974,
+    "mlp-nce": 0.9654150009155273
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.04545450210571289,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0039525628089904785,
+    "val-select": 0.0,
+    "always-identity": 0.9861659838352352,
+    "always-ortho": 0.04545450210571289,
+    "always-rotation+centre": 0.0039525628089904785,
+    "always-cca": 0.0039525628089904785,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.02173912525177002
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/ja",
+   "regime": "cross-lingual",
+   "id_train": 0.0,
+   "A": 0.31671518087387085,
+   "val": {
+    "identity": 0.0,
+    "ortho": 0.9648241400718689,
+    "rotation+centre": 0.9949748516082764,
+    "cca": 0.9949748516082764,
+    "cca-tuned": 0.9949748516082764,
+    "mlp-nce": 0.9899497628211975
+   },
+   "test": {
+    "identity": 0.0,
+    "ortho": 0.926877498626709,
+    "rotation+centre": 0.9822134375572205,
+    "cca": 0.9822134375572205,
+    "cca-tuned": 0.989130437374115,
+    "mlp-nce": 0.945652186870575
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.062252938747406006,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.006916999816894531,
+    "val-select": 0.006916999816894531,
+    "always-identity": 0.989130437374115,
+    "always-ortho": 0.062252938747406006,
+    "always-rotation+centre": 0.006916999816894531,
+    "always-cca": 0.006916999816894531,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.04347825050354004
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": false,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/ko",
+   "regime": "cross-lingual",
+   "id_train": 0.002006018068641424,
+   "A": 0.2329564243555069,
+   "val": {
+    "identity": 0.01005025114864111,
+    "ortho": 0.9698492288589478,
+    "rotation+centre": 0.9949748516082764,
+    "cca": 0.9949748516082764,
+    "cca-tuned": 0.9949748516082764,
+    "mlp-nce": 0.9949748516082764
+   },
+   "test": {
+    "identity": 0.002964426763355732,
+    "ortho": 0.9278656244277954,
+    "rotation+centre": 0.9733201861381531,
+    "cca": 0.9743083119392395,
+    "cca-tuned": 0.9841897487640381,
+    "mlp-nce": 0.9466403126716614
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.056324124336242676,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.009881436824798584,
+    "val-select": 0.01086956262588501,
+    "always-identity": 0.9812253220006824,
+    "always-ortho": 0.056324124336242676,
+    "always-rotation+centre": 0.01086956262588501,
+    "always-cca": 0.009881436824798584,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.03754943609237671
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": false,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/pl",
+   "regime": "cross-lingual",
+   "id_train": 0.0,
+   "A": 0.26135310530662537,
+   "val": {
+    "identity": 0.0,
+    "ortho": 0.9899497628211975,
+    "rotation+centre": 0.9949748516082764,
+    "cca": 0.9949748516082764,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9949748516082764
+   },
+   "test": {
+    "identity": 0.0019762846641242504,
+    "ortho": 0.9743083119392395,
+    "rotation+centre": 0.9851778745651245,
+    "cca": 0.9841897487640381,
+    "cca-tuned": 0.9841897487640381,
+    "mlp-nce": 0.9861660003662109
+   },
+   "oracle": "mlp-nce",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.011857688426971436,
+    "diag(ID,ceiling)": 0.0019762516021728516,
+    "diag(ID only)": 0.0019762516021728516,
+    "diag(ID only, cca lam=.1)": 0.0019762516021728516,
+    "val-select": 0.0019762516021728516,
+    "always-identity": 0.9841897157020867,
+    "always-ortho": 0.011857688426971436,
+    "always-rotation+centre": 0.0009881258010864258,
+    "always-cca": 0.0019762516021728516,
+    "always-cca-tuned": 0.0019762516021728516,
+    "always-mlp-nce": 0.0
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": true
+   }
+  },
+  {
+   "gap": "labse/sv",
+   "regime": "cross-lingual",
+   "id_train": 0.001003009034320712,
+   "A": 0.2461743950843811,
+   "val": {
+    "identity": 0.01005025114864111,
+    "ortho": 0.9949748516082764,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9949748516082764
+   },
+   "test": {
+    "identity": 0.002964426763355732,
+    "ortho": 0.9644268751144409,
+    "rotation+centre": 0.992094874382019,
+    "cca": 0.992094874382019,
+    "cca-tuned": 0.9911067485809326,
+    "mlp-nce": 0.95652174949646
+   },
+   "oracle": "rotation+centre",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.027667999267578125,
+    "diag(ID,ceiling)": 0.0009881258010864258,
+    "diag(ID only)": 0.0009881258010864258,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0,
+    "always-identity": 0.9891304476186633,
+    "always-ortho": 0.027667999267578125,
+    "always-rotation+centre": 0.0,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.0009881258010864258,
+    "always-mlp-nce": 0.03557312488555908
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "labse/id",
+   "regime": "cross-lingual",
+   "id_train": 0.001003009034320712,
+   "A": 0.26456671953201294,
+   "val": {
+    "identity": 0.005025125574320555,
+    "ortho": 0.9949748516082764,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 1.0
+   },
+   "test": {
+    "identity": 0.0,
+    "ortho": 0.9654150009155273,
+    "rotation+centre": 0.9871541261672974,
+    "cca": 0.9871541261672974,
+    "cca-tuned": 0.9901185631752014,
+    "mlp-nce": 0.9733201861381531
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.024703562259674072,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0029644370079040527,
+    "val-select": 0.0029644370079040527,
+    "always-identity": 0.9901185631752014,
+    "always-ortho": 0.024703562259674072,
+    "always-rotation+centre": 0.0029644370079040527,
+    "always-cca": 0.0029644370079040527,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.01679837703704834
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "xa/bert-ba->roberta",
+   "regime": "cross-arch",
+   "id_train": 0.001003009034320712,
+   "A": 0.21137891709804535,
+   "val": {
+    "identity": 0.0,
+    "ortho": 0.9145728349685669,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9949748516082764
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.8577075004577637,
+    "rotation+centre": 0.9930830001831055,
+    "cca": 0.9940711259841919,
+    "cca-tuned": 0.9950593113899231,
+    "mlp-nce": 0.9614624381065369
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.13735181093215942,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0009881854057312012,
+    "val-select": 0.001976311206817627,
+    "always-identity": 0.994071169057861,
+    "always-ortho": 0.13735181093215942,
+    "always-rotation+centre": 0.001976311206817627,
+    "always-cca": 0.0009881854057312012,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.03359687328338623
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "xa/bert-ba->deberta",
+   "regime": "cross-arch",
+   "id_train": 0.002006018068641424,
+   "A": 0.1503451019525528,
+   "val": {
+    "identity": 0.01005025114864111,
+    "ortho": 0.9899497628211975,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 1.0
+   },
+   "test": {
+    "identity": 0.0019762846641242504,
+    "ortho": 0.9713438749313354,
+    "rotation+centre": 0.997035562992096,
+    "cca": 0.9980236887931824,
+    "cca-tuned": 0.997035562992096,
+    "mlp-nce": 0.9683794379234314
+   },
+   "oracle": "cca",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.026679813861846924,
+    "diag(ID,ceiling)": 0.0009881258010864258,
+    "diag(ID only)": 0.0009881258010864258,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0009881258010864258,
+    "always-identity": 0.9960474041290581,
+    "always-ortho": 0.026679813861846924,
+    "always-rotation+centre": 0.0009881258010864258,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.0009881258010864258,
+    "always-mlp-nce": 0.029644250869750977
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "xa/bert-ba->electra",
+   "regime": "cross-arch",
+   "id_train": 0.002006018068641424,
+   "A": 0.32420894503593445,
+   "val": {
+    "identity": 0.0,
+    "ortho": 0.7437185645103455,
+    "rotation+centre": 0.9849246144294739,
+    "cca": 0.9849246144294739,
+    "cca-tuned": 0.9949748516082764,
+    "mlp-nce": 0.8190954923629761
+   },
+   "test": {
+    "identity": 0.0,
+    "ortho": 0.6195651888847351,
+    "rotation+centre": 0.9229248762130737,
+    "cca": 0.9308300614356995,
+    "cca-tuned": 0.97826087474823,
+    "mlp-nce": 0.6166008114814758
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "cca-tuned",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.04743081331253052,
+    "val-select": 0.0,
+    "always-identity": 0.97826087474823,
+    "always-ortho": 0.3586956858634949,
+    "always-rotation+centre": 0.05533599853515625,
+    "always-cca": 0.04743081331253052,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.36166006326675415
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "xa/roberta->deberta",
+   "regime": "cross-arch",
+   "id_train": 0.001003009034320712,
+   "A": 0.11130931228399277,
+   "val": {
+    "identity": 0.0,
+    "ortho": 0.9698492288589478,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 1.0
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.8952569365501404,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.9713438749313354
+   },
+   "oracle": "rotation+centre",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.10474306344985962,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0,
+    "always-identity": 0.9990118576679379,
+    "always-ortho": 0.10474306344985962,
+    "always-rotation+centre": 0.0,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.02865612506866455
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "xa/roberta->electra",
+   "regime": "cross-arch",
+   "id_train": 0.001003009034320712,
+   "A": 0.12490621209144592,
+   "val": {
+    "identity": 0.01005025114864111,
+    "ortho": 0.37185928225517273,
+    "rotation+centre": 0.9849246144294739,
+    "cca": 0.9849246144294739,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.8542713522911072
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.17490118741989136,
+    "rotation+centre": 0.95652174949646,
+    "cca": 0.9624505639076233,
+    "cca-tuned": 0.992094874382019,
+    "mlp-nce": 0.7213438749313354
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.8171936869621277,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.029644310474395752,
+    "val-select": 0.0,
+    "always-identity": 0.9911067320499569,
+    "always-ortho": 0.8171936869621277,
+    "always-rotation+centre": 0.03557312488555908,
+    "always-cca": 0.029644310474395752,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.2707509994506836
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "xa/deberta->electra",
+   "regime": "cross-arch",
+   "id_train": 0.001003009034320712,
+   "A": 0.20395487546920776,
+   "val": {
+    "identity": 0.005025125574320555,
+    "ortho": 0.6482412219047546,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.8542713522911072
+   },
+   "test": {
+    "identity": 0.0009881423320621252,
+    "ortho": 0.33102765679359436,
+    "rotation+centre": 0.9752964377403259,
+    "cca": 0.97826087474823,
+    "cca-tuned": 0.9960474371910095,
+    "mlp-nce": 0.72826087474823
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "rotation+centre",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.6650197803974152,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.01778656244277954,
+    "val-select": 0.020750999450683594,
+    "always-identity": 0.9950592948589474,
+    "always-ortho": 0.6650197803974152,
+    "always-rotation+centre": 0.020750999450683594,
+    "always-cca": 0.01778656244277954,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.26778656244277954
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": false,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "xa/multili->LaBSE",
+   "regime": "cross-arch",
+   "id_train": 0.001003009034320712,
+   "A": 0.24817684292793274,
+   "val": {
+    "identity": 0.005025125574320555,
+    "ortho": 1.0,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 1.0
+   },
+   "test": {
+    "identity": 0.0019762846641242504,
+    "ortho": 1.0,
+    "rotation+centre": 1.0,
+    "cca": 1.0,
+    "cca-tuned": 1.0,
+    "mlp-nce": 0.989130437374115
+   },
+   "oracle": "ortho",
+   "picks": {
+    "diag(submitted:A-branch)": "ortho",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "ortho",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0,
+    "always-identity": 0.9980237153358757,
+    "always-ortho": 0.0,
+    "always-rotation+centre": 0.0,
+    "always-cca": 0.0,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.01086956262588501
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": true,
+    "always-rotation+centre": true,
+    "always-cca": true,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "clip/mscoco",
+   "regime": "jointly-trained",
+   "id_train": 0.5299999713897705,
+   "A": 0.11366786807775497,
+   "val": {
+    "identity": 0.675000011920929,
+    "ortho": 0.41499999165534973,
+    "rotation+centre": 0.5049999952316284,
+    "cca": 0.5149999856948853,
+    "cca-tuned": 0.5249999761581421,
+    "mlp-nce": 0.5649999976158142
+   },
+   "test": {
+    "identity": 0.6060000061988831,
+    "ortho": 0.2680000066757202,
+    "rotation+centre": 0.3540000021457672,
+    "cca": 0.3619999885559082,
+    "cca-tuned": 0.38199999928474426,
+    "mlp-nce": 0.3659999966621399
+   },
+   "oracle": "identity",
+   "picks": {
+    "diag(submitted:A-branch)": "identity",
+    "diag(ID,ceiling)": "identity",
+    "diag(ID only)": "identity",
+    "diag(ID only, cca lam=.1)": "identity",
+    "val-select": "identity",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0,
+    "always-identity": 0.0,
+    "always-ortho": 0.33799999952316284,
+    "always-rotation+centre": 0.25200000405311584,
+    "always-cca": 0.24400001764297485,
+    "always-cca-tuned": 0.2240000069141388,
+    "always-mlp-nce": 0.24000000953674316
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": true,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": false,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "clip/flickr30k",
+   "regime": "jointly-trained",
+   "id_train": 0.7253731489181519,
+   "A": 0.10737930983304977,
+   "val": {
+    "identity": 0.8283582329750061,
+    "ortho": 0.4253731369972229,
+    "rotation+centre": 0.5895522236824036,
+    "cca": 0.60447758436203,
+    "cca-tuned": 0.60447758436203,
+    "mlp-nce": 0.5746268630027771
+   },
+   "test": {
+    "identity": 0.7636363506317139,
+    "ortho": 0.3060606122016907,
+    "rotation+centre": 0.4575757682323456,
+    "cca": 0.47575756907463074,
+    "cca-tuned": 0.47575756907463074,
+    "mlp-nce": 0.4000000059604645
+   },
+   "oracle": "identity",
+   "picks": {
+    "diag(submitted:A-branch)": "identity",
+    "diag(ID,ceiling)": "identity",
+    "diag(ID only)": "identity",
+    "diag(ID only, cca lam=.1)": "identity",
+    "val-select": "identity",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0,
+    "always-identity": 0.0,
+    "always-ortho": 0.4575757384300232,
+    "always-rotation+centre": 0.3060605823993683,
+    "always-cca": 0.28787878155708313,
+    "always-cca-tuned": 0.28787878155708313,
+    "always-mlp-nce": 0.3636363446712494
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": true,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": false,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "clip/flickr8k",
+   "regime": "jointly-trained",
+   "id_train": 0.5925372838973999,
+   "A": 0.08839814364910126,
+   "val": {
+    "identity": 0.7985074520111084,
+    "ortho": 0.3731343150138855,
+    "rotation+centre": 0.5149253606796265,
+    "cca": 0.5223880410194397,
+    "cca-tuned": 0.5298507213592529,
+    "mlp-nce": 0.5298507213592529
+   },
+   "test": {
+    "identity": 0.7121211886405945,
+    "ortho": 0.33636364340782166,
+    "rotation+centre": 0.4515151381492615,
+    "cca": 0.47575756907463074,
+    "cca-tuned": 0.5272727012634277,
+    "mlp-nce": 0.4575757682323456
+   },
+   "oracle": "identity",
+   "picks": {
+    "diag(submitted:A-branch)": "identity",
+    "diag(ID,ceiling)": "identity",
+    "diag(ID only)": "identity",
+    "diag(ID only, cca lam=.1)": "identity",
+    "val-select": "identity",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.0,
+    "val-select": 0.0,
+    "always-identity": 0.0,
+    "always-ortho": 0.3757575452327728,
+    "always-rotation+centre": 0.260606050491333,
+    "always-cca": 0.23636361956596375,
+    "always-cca-tuned": 0.18484848737716675,
+    "always-mlp-nce": 0.2545454204082489
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": true,
+    "val-select": true,
+    "always-identity": true,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": false,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "xm/libri-whisper->xlmr/s0",
+   "regime": "cross-modal",
+   "id_train": 0.0,
+   "A": 0.8108662366867065,
+   "val": {
+    "identity": -1.0,
+    "ortho": 0.00238663493655622,
+    "rotation+centre": 0.026252983137965202,
+    "cca": 0.26968973875045776,
+    "cca-tuned": 0.7756563425064087,
+    "mlp-nce": 0.07159905135631561
+   },
+   "test": {
+    "identity": -1.0,
+    "ortho": 0.0019083969527855515,
+    "rotation+centre": 0.036259543150663376,
+    "cca": 0.31106871366500854,
+    "cca-tuned": 0.8320610523223877,
+    "mlp-nce": 0.04007633402943611
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "cca-tuned",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.5209923386573792,
+    "val-select": 0.0,
+    "always-identity": 0.8320610523223877,
+    "always-ortho": 0.8301526553696021,
+    "always-rotation+centre": 0.7958015091717243,
+    "always-cca": 0.5209923386573792,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.7919847182929516
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "xm/libri-whisper->xlmr/s1",
+   "regime": "cross-modal",
+   "id_train": 0.0,
+   "A": 0.8342416882514954,
+   "val": {
+    "identity": -1.0,
+    "ortho": 0.00238663493655622,
+    "rotation+centre": 0.026252983137965202,
+    "cca": 0.31742241978645325,
+    "cca-tuned": 0.7875894904136658,
+    "mlp-nce": 0.0525059700012207
+   },
+   "test": {
+    "identity": -1.0,
+    "ortho": 0.0019083969527855515,
+    "rotation+centre": 0.013358778320252895,
+    "cca": 0.30534350872039795,
+    "cca-tuned": 0.8206107020378113,
+    "mlp-nce": 0.06679389625787735
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "cca-tuned",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.5152671933174133,
+    "val-select": 0.0,
+    "always-identity": 0.8206107020378113,
+    "always-ortho": 0.8187023050850257,
+    "always-rotation+centre": 0.8072519237175584,
+    "always-cca": 0.5152671933174133,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.7538168057799339
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "xm/libri-whisper->xlmr/s2",
+   "regime": "cross-modal",
+   "id_train": 0.0,
+   "A": 0.7881045937538147,
+   "val": {
+    "identity": -1.0,
+    "ortho": 0.00238663493655622,
+    "rotation+centre": 0.021479712799191475,
+    "cca": 0.2720763683319092,
+    "cca-tuned": 0.8090692162513733,
+    "mlp-nce": 0.059665873646736145
+   },
+   "test": {
+    "identity": -1.0,
+    "ortho": 0.0019083969527855515,
+    "rotation+centre": 0.024809161201119423,
+    "cca": 0.3435114622116089,
+    "cca-tuned": 0.8606870174407959,
+    "mlp-nce": 0.05534351244568825
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "cca-tuned",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.517175555229187,
+    "val-select": 0.0,
+    "always-identity": 0.8606870174407959,
+    "always-ortho": 0.8587786204880103,
+    "always-rotation+centre": 0.8358778562396765,
+    "always-cca": 0.517175555229187,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.8053435049951077
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "xm/libri-whisper->xlmr/s3",
+   "regime": "cross-modal",
+   "id_train": 0.0,
+   "A": 0.8197005987167358,
+   "val": {
+    "identity": -1.0,
+    "ortho": 0.00238663493655622,
+    "rotation+centre": 0.01909307949244976,
+    "cca": 0.3651551306247711,
+    "cca-tuned": 0.8233889937400818,
+    "mlp-nce": 0.04295942932367325
+   },
+   "test": {
+    "identity": -1.0,
+    "ortho": 0.0019083969527855515,
+    "rotation+centre": 0.030534351244568825,
+    "cca": 0.2862595319747925,
+    "cca-tuned": 0.7958015203475952,
+    "mlp-nce": 0.04770992323756218
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "cca-tuned",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.5095419883728027,
+    "val-select": 0.0,
+    "always-identity": 0.7958015203475952,
+    "always-ortho": 0.7938931233948097,
+    "always-rotation+centre": 0.7652671691030264,
+    "always-cca": 0.5095419883728027,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.748091597110033
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "xm/libri-whisper->xlmr/s4",
+   "regime": "cross-modal",
+   "id_train": 0.0,
+   "A": 0.822507917881012,
+   "val": {
+    "identity": -1.0,
+    "ortho": 0.00238663493655622,
+    "rotation+centre": 0.01909307949244976,
+    "cca": 0.2959427237510681,
+    "cca-tuned": 0.7446300983428955,
+    "mlp-nce": 0.03818615898489952
+   },
+   "test": {
+    "identity": -1.0,
+    "ortho": 0.0019083969527855515,
+    "rotation+centre": 0.022900763899087906,
+    "cca": 0.3435114622116089,
+    "cca-tuned": 0.8492366671562195,
+    "mlp-nce": 0.049618322402238846
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "cca-tuned",
+    "diag(ID,ceiling)": "cca-tuned",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0,
+    "diag(ID,ceiling)": 0.0,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.5057252049446106,
+    "val-select": 0.0,
+    "always-identity": 0.8492366671562195,
+    "always-ortho": 0.8473282702034339,
+    "always-rotation+centre": 0.8263359032571316,
+    "always-cca": 0.5057252049446106,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.7996183447539806
+   },
+   "correct": {
+    "diag(submitted:A-branch)": true,
+    "diag(ID,ceiling)": true,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  },
+  {
+   "gap": "xm/coco-dinov2->bert",
+   "regime": "cross-modal",
+   "id_train": 0.0006666666595265269,
+   "A": 0.6349718570709229,
+   "val": {
+    "identity": 0.0016666667070239782,
+    "ortho": 0.15833333134651184,
+    "rotation+centre": 0.17499999701976776,
+    "cca": 0.18666666746139526,
+    "cca-tuned": 0.20000000298023224,
+    "mlp-nce": 0.16500000655651093
+   },
+   "test": {
+    "identity": 0.0010000000474974513,
+    "ortho": 0.13199999928474426,
+    "rotation+centre": 0.13500000536441803,
+    "cca": 0.14100000262260437,
+    "cca-tuned": 0.1509999930858612,
+    "mlp-nce": 0.12099999934434891
+   },
+   "oracle": "cca-tuned",
+   "picks": {
+    "diag(submitted:A-branch)": "mlp-nce",
+    "diag(ID,ceiling)": "mlp-nce",
+    "diag(ID only)": "cca-tuned",
+    "diag(ID only, cca lam=.1)": "cca",
+    "val-select": "cca-tuned",
+    "always-identity": "identity",
+    "always-ortho": "ortho",
+    "always-rotation+centre": "rotation+centre",
+    "always-cca": "cca",
+    "always-cca-tuned": "cca-tuned",
+    "always-mlp-nce": "mlp-nce"
+   },
+   "regret": {
+    "diag(submitted:A-branch)": 0.0299999937415123,
+    "diag(ID,ceiling)": 0.0299999937415123,
+    "diag(ID only)": 0.0,
+    "diag(ID only, cca lam=.1)": 0.009999990463256836,
+    "val-select": 0.0,
+    "always-identity": 0.14999999303836375,
+    "always-ortho": 0.018999993801116943,
+    "always-rotation+centre": 0.015999987721443176,
+    "always-cca": 0.009999990463256836,
+    "always-cca-tuned": 0.0,
+    "always-mlp-nce": 0.0299999937415123
+   },
+   "correct": {
+    "diag(submitted:A-branch)": false,
+    "diag(ID,ceiling)": false,
+    "diag(ID only)": true,
+    "diag(ID only, cca lam=.1)": false,
+    "val-select": true,
+    "always-identity": false,
+    "always-ortho": false,
+    "always-rotation+centre": false,
+    "always-cca": false,
+    "always-cca-tuned": true,
+    "always-mlp-nce": false
+   }
+  }
+ ]
+}

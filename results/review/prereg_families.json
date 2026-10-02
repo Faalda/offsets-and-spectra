@@ -1,0 +1,32 @@
+{
+ "frozen_at": "2026-09-30 08:20:19",
+ "batch": "4: scaled source families (20 new English encoders x 17 targets)",
+ "status_at_freeze": "no new-source embedding computed and no new-source result inspected; the analysis script was validated only by re-computing two gaps of an already-analysed source (bert-base-uncased vs source_families.json), which matched exactly",
+ "hypotheses": "P1 source level: Spearman(native source mean dominance, median offset cost over 17 targets) > 0 across the 20 NEW sources; supported iff one-sided Monte Carlo permutation p < 0.05.\nP2 variance shares of offset cost (source, target, residual): supported iff source share > target share at the point estimate AND in >= 90% of pigeonhole-bootstrap replicates.\nP3 within-source (source-demeaned) Spearman(spectral mismatch A, whitening gain = CCA - centred): supported iff pigeonhole 95% bootstrap interval excludes 0 from below.\nP4 within-source Spearman(target mean dominance, offset cost): reported only; expected null.\nSecondary: P1-P3 on the pooled 26 sources (new + six of Appendix A.2). All results reported whatever they show.",
+ "protocol": "see scale_config.py docstring: mean-pooled L2-normalised max_length 128; d>768 mean-preserving projection to 768, d=768 native, d<768 native; FLORES dev fits, devtest evaluates; same 17 BERT targets; CCA lambda by validation",
+ "sha256": {
+  "scale_config.py": "72a38c9bfc68a09bfaae52bc17dfa779558aeb03115ae84c934c2fa028d2219c",
+  "scale_embed.py": "55b5446584b5dd12eddb2a2639bb8948caa80f34a4a61da999a7e430260b34ba",
+  "scale_families.py": "d8b796e814f03e58d405f8bde617d081360ca2f0a024c729b0ebfcc7fafdb510",
+  "common.py": "2d03f92d09e74800f8a08dc322f6aa79b4e32aa65e51b1dac5c718b7cbb28eaf",
+  "hub_common.py": "cf6aca75f9ac6bc92ca9d5309567a392a469d183e63dc9a1128670e7b5b7f7b2",
+  "benchmark.py": "3fa2cc7f5d6f38fe9be3a1bf2929ad158712f1b94a5c89434628df5b88506457",
+  "decomposition.py": "c59c610b15db9353fa96ea0d6d027cc82ad39b4dd1627136326c4eda4f6bbed5"
+ },
+ "sha256_prior_records": {
+  "prereg3.json": "651cf558d53152d19667529340af2105507e5db45a543be1aaf490ede1a3b638",
+  "source_families.json": "d712092f540c31511b8075c8a605095a7f7088d50f9368e867b11ceffbc2e251"
+ },
+ "english_encoders_cached_at_freeze": [
+  "Alibaba-NLP_gte-Qwen2-1.5B-instruct__eng_Latn__dev.pt",
+  "answerdotai_ModernBERT-large__eng_Latn__dev.pt",
+  "bert-base-uncased__eng_Latn__dev.pt",
+  "google_electra-base-discriminator__eng_Latn__dev.pt",
+  "intfloat_multilingual-e5-base__eng_Latn__dev.pt",
+  "intfloat_multilingual-e5-large__eng_Latn__dev.pt",
+  "microsoft_deberta-base__eng_Latn__dev.pt",
+  "roberta-base__eng_Latn__dev.pt",
+  "sentence-transformers_LaBSE__eng_Latn__dev.pt",
+  "sentence-transformers_paraphrase-multilingual-mpnet-base-v2__eng_Latn__dev.pt"
+ ]
+}

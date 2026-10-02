@@ -1,0 +1,55 @@
+{
+ "ctrl/rot+noise": {
+  "p1": {
+   "ortho": 1.0,
+   "cca": 1.0,
+   "linear-ls": 1.0,
+   "ortho_wmetric": 1.0,
+   "identity": 0.0019762846641242504,
+   "lowrank-r8": 0.0019762846641242504,
+   "cca-tuned": 1.0,
+   "ridge": 1.0,
+   "rrr": 0.9960474371910095,
+   "wridge": 1.0,
+   "mlp-cos": 0.9950593113899231,
+   "mlp-nce": 1.0,
+   "linear-nce": 1.0
+  },
+  "hp": {
+   "cca-tuned": "0.001",
+   "ridge": "1e-06",
+   "rrr": "(64, 0.0001)",
+   "wridge": "1e-06",
+   "mlp-cos": "{'h': 512, 'dropout': 0.0, 'wd': 0.0001, 'epochs': 10, 'val_p1': 1.0}",
+   "mlp-nce": "{'h': 512, 'dropout': 0.0, 'wd': 0.0001, 'epochs': 5, 'val_p1': 1.0}",
+   "linear-nce": "{'h': 0, 'dropout': 0.0, 'wd': 0.0001, 'epochs': 5, 'val_p1': 1.0}"
+  },
+  "time_s": {
+   "ortho": 0.06801610998809338,
+   "cca": 0.12028979882597923,
+   "linear-ls": 0.009807173162698746,
+   "ortho_wmetric": 0.11630138009786606,
+   "identity": 8.812174201011658e-06,
+   "lowrank-r8": 0.08916294761002064,
+   "cca-tuned": 0.6113024856895208,
+   "ridge": 0.08795193210244179,
+   "rrr": 1.8573002479970455,
+   "wridge": 0.5899333730340004,
+   "mlp-cos": 3.3956599198281765,
+   "mlp-nce": 2.774151772260666,
+   "linear-nce": 0.49869423545897007
+  },
+  "diag": {
+   "aniso_paired": 0.2049344778060913,
+   "aniso_paired_half": 0.17954164743423462,
+   "aniso_unpaired": 0.1557692140340805,
+   "self_aniso_x": 1.179332971572876,
+   "self_aniso_y": 0.9957404136657715,
+   "n_train": 997,
+   "n_test": 1012,
+   "dx": 768,
+   "dy": 768
+  },
+  "regime": "isotropic"
+ }
+}

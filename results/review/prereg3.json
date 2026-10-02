@@ -1,0 +1,11 @@
+{
+ "frozen_at": "2026-09-26 07:46:49",
+ "batch": "third held-out batch: Laya models (laya-vision SmolVLM/SigLIP image features; laya-typed-decisions fine-tuned ModernBERT-large), base ModernBERT-large, Qwen3-0.6B (SemIf backbone)",
+ "predictions": {
+  "P6": "image encoders that were trained WITH a language signal (laya-vision SigLIP tower; laya-vision connector) give higher CCA(val) P@1 to BERT/e5/MPNet captions than every independently trained image encoder (DINOv2/ViT/ConvNeXt) for the same text target",
+  "P7": "fine-tuning gap (base ModernBERT-large -> Laya fine-tuned ModernBERT-large, same English FLORES sentences) has identity retrieval >= 0.5, so the rule picks identity with regret <= 0.01",
+  "P8": "text gaps involving Laya-ModernBERT or Qwen3-0.6B (to BERT/e5) follow the text pattern: CCA(val) P@1 >= 0.9 and centring recovers >= 80% of the rotation->CCA gain on a majority",
+  "P9": "selection rule mean regret <= 0.01 over this batch"
+ },
+ "sha256_prereg2": "8b7e36db7bc2ef4c497d455902a7d51846b3273c8c00358051f03085a2a76a60"
+}

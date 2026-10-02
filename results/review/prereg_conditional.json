@@ -1,0 +1,14 @@
+{
+ "frozen_at": "2026-09-30 08:22:02",
+ "batch": "5: conditional (piecewise) Procrustes on real low-ceiling gaps",
+ "status_at_freeze": "script written and syntax-checked only; not run on any data before this record; no result seen. Related earlier facts known to the authors at freeze: the spiral twist (twist.py) defeats global linear maps on synthetic data, and CCA on the real COCO/Laya gaps scores 0.15-0.36 (results/review/coco_gaps.json, laya_gaps.json).",
+ "gaps": "9 COCO image->text, 6 Laya image->text, ModernBERT base->fine-tuned (16 gaps)",
+ "criteria": "R1: on at least one real gap the train-selected conditional map beats CCA(128-d PCA space) by >=0.02 P@1 with paired 95% bootstrap CI excluding 0. R2: report the number of gaps with max D>0. Controls: spiral a=1 must give selected-minus-CCA >=0.02 with CI>0; identity gap must give max D<=0.01; if a control fails R1 is inconclusive.",
+ "sha256": {
+  "real_conditional.py": "36753c3c3a6cb217e1995294423812cd7170a8095b23867ba55890794c910789",
+  "stress_common.py": "f58175421c7165b80a970ab939ed449516e160c150b82edfe9715c1ad9e6c084",
+  "twist.py": "2d519442e4f6a8c02405c6459722f3f10ea3af00097a652d23e3697e9f462c73",
+  "common.py": "2d03f92d09e74800f8a08dc322f6aa79b4e32aa65e51b1dac5c718b7cbb28eaf",
+  "hub_common.py": "cf6aca75f9ac6bc92ca9d5309567a392a469d183e63dc9a1128670e7b5b7f7b2"
+ }
+}

@@ -13,6 +13,8 @@ single-task fine-tune. Embeddings are cached to disk.
 from __future__ import annotations
 
 from dataclasses import dataclass
+from io import BytesIO
+import math
 from pathlib import Path
 
 import torch
@@ -20,6 +22,33 @@ import torch
 _CACHE = Path(__file__).resolve().parent.parent / "results" / "emb_cache"
 SR = 16000
 MAX_SAMPLES = SR * 10          # cap utterances at 10 s
+
+
+def _valid_whisper_frames(num_samples, feature_extractor, encoded_frames):
+    valid_mel_frames = min(
+        feature_extractor.nb_max_frames,
+        math.ceil(num_samples / feature_extractor.hop_length),
+    )
+    return max(1, math.ceil(
+        valid_mel_frames * encoded_frames / feature_extractor.nb_max_frames
+    ))
+
+
+def _audio_arrays(dataset):
+    from datasets import Audio
+    import soundfile as sf
+
+    dataset = dataset.cast_column("audio", Audio(decode=False))
+    arrays = []
+    for audio in dataset["audio"]:
+        source = BytesIO(audio["bytes"]) if audio["bytes"] is not None else audio["path"]
+        array, sampling_rate = sf.read(source, dtype="float32")
+        if sampling_rate != SR:
+            raise ValueError(f"Expected {SR} Hz audio, got {sampling_rate} Hz")
+        if array.ndim == 2:
+            array = array.mean(1)
+        arrays.append(array)
+    return arrays
 
 
 @torch.no_grad()
@@ -31,14 +60,20 @@ def _embed_audio(arrays, model_id, device) -> torch.Tensor:
     is_whisper = "whisper" in model_id.lower()
     from transformers import AutoFeatureExtractor, AutoModel
     fe = AutoFeatureExtractor.from_pretrained(model_id)
-    model = AutoModel.from_pretrained(model_id).to(device).eval()
+    model = AutoModel.from_pretrained(model_id, dtype=torch.float32).to(device).eval()
     encoder = model.encoder if is_whisper else model
     out = []
     for arr in arrays:
         a = torch.as_tensor(arr, dtype=torch.float32)[:MAX_SAMPLES]
         feats = fe(a.numpy(), sampling_rate=SR, return_tensors="pt")
-        x = (feats.input_features if is_whisper else feats.input_values).to(device)
+        encoder_dtype = next(encoder.parameters()).dtype
+        x = (feats.input_features if is_whisper else feats.input_values).to(
+            device=device, dtype=encoder_dtype
+        )
         h = encoder(x).last_hidden_state            # (1, T, D)
+        if is_whisper:
+            valid_frames = _valid_whisper_frames(len(a), fe, h.shape[1])
+            h = h[:, :valid_frames]
         out.append(torch.nn.functional.normalize(h.mean(1), dim=-1).cpu())
     del model
     torch.cuda.empty_cache()
@@ -72,8 +107,10 @@ def _embed_text(texts, model_id, device) -> torch.Tensor:
     return torch.cat(out)
 
 
-def _cached(kind, split, model_id, device, loader):
+def _cached(kind, split, model_id, device, loader, cache_variant=None):
     _CACHE.mkdir(parents=True, exist_ok=True)
+    if cache_variant:
+        kind = f"{kind}-{cache_variant}"
     path = _CACHE / f"slurptn__{kind}__{model_id.replace('/', '_')}__{split}.pt"
     if path.exists():
         return torch.load(path)
@@ -97,8 +134,10 @@ def load_crossmodal(speech_model="jonatasgrosman/wav2vec2-large-xlsr-53-arabic",
     splits = {}
     for split in ("train", "validation", "test"):
         ds = load_dataset("Elyadata/SLURP-TN", split=split)
+        speech_variant = "validframes-fp32" if "whisper" in speech_model.lower() else None
         X = _cached("speech", split, speech_model, device,
-                    lambda ds=ds: _embed_audio([a["array"] for a in ds["audio"]], speech_model, device))
+                    lambda ds=ds: _embed_audio(_audio_arrays(ds), speech_model, device),
+                    cache_variant=speech_variant)
         Y = _cached("text", split, text_model, device,
                     lambda ds=ds: _embed_text([str(t) for t in ds[text_col]], text_model, device))
         splits[split] = (X, Y)

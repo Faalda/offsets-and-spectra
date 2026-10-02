@@ -1,0 +1,82 @@
+{
+ "ar": {
+  "rotation": {
+   "p1": 0.559,
+   "skew": 7.59,
+   "top1": 13.7,
+   "never": 40.7
+  },
+  "rotation+centre": {
+   "p1": 0.753,
+   "skew": 1.33,
+   "top1": 4.3,
+   "never": 22.7
+  },
+  "cca": {
+   "p1": 0.756,
+   "skew": 1.25,
+   "top1": 4.2,
+   "never": 22.7
+  }
+ },
+ "it": {
+  "rotation": {
+   "p1": 0.684,
+   "skew": 6.44,
+   "top1": 10.6,
+   "never": 30.6
+  },
+  "rotation+centre": {
+   "p1": 0.882,
+   "skew": 1.05,
+   "top1": 3.4,
+   "never": 11.5
+  },
+  "cca": {
+   "p1": 0.894,
+   "skew": 1.09,
+   "top1": 3.4,
+   "never": 10.4
+  }
+ },
+ "fr": {
+  "rotation": {
+   "p1": 0.871,
+   "skew": 3.51,
+   "top1": 5.1,
+   "never": 12.8
+  },
+  "rotation+centre": {
+   "p1": 0.96,
+   "skew": 0.74,
+   "top1": 2.3,
+   "never": 3.9
+  },
+  "cca": {
+   "p1": 0.971,
+   "skew": 0.41,
+   "top1": 2.1,
+   "never": 2.9
+  }
+ },
+ "de": {
+  "rotation": {
+   "p1": 0.933,
+   "skew": 2.69,
+   "top1": 3.4,
+   "never": 6.7
+  },
+  "rotation+centre": {
+   "p1": 0.984,
+   "skew": 0.0,
+   "top1": 2.0,
+   "never": 1.6
+  },
+  "cca": {
+   "p1": 0.986,
+   "skew": 0.0,
+   "top1": 2.0,
+   "never": 1.4
+  }
+ }
+}

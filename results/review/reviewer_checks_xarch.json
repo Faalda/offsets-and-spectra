@@ -1,0 +1,219 @@
+{
+  "xa/bert-ba->roberta": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.8577075004577637,
+      "raw_fit_procrustes": 0.9930830001831055,
+      "centred_procrustes": 0.9930830001831055,
+      "scaled_procrustes": 0.9930830001831055,
+      "probe_csls": 0.9752964377403259
+    },
+    "offset": {
+      "mean_dominance_x": 0.577927827835083,
+      "relative_offset_norm": 1.1701550483703613,
+      "target_directional_sd": 0.016127649694681168,
+      "direction_aware_offset": 0.012260491028428078
+    },
+    "regime": "cross-arch"
+  },
+  "xa/bert-ba->deberta": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0019762846641242504,
+      "probe": 0.9713438749313354,
+      "raw_fit_procrustes": 0.9980236887931824,
+      "centred_procrustes": 0.997035562992096,
+      "scaled_procrustes": 0.9980236887931824,
+      "probe_csls": 0.992094874382019
+    },
+    "offset": {
+      "mean_dominance_x": 0.577927827835083,
+      "relative_offset_norm": 1.1701550483703613,
+      "target_directional_sd": 0.027826519683003426,
+      "direction_aware_offset": 0.021154159680008888
+    },
+    "regime": "cross-arch"
+  },
+  "xa/bert-ba->electra": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0,
+      "probe": 0.6195651888847351,
+      "raw_fit_procrustes": 0.9110671877861023,
+      "centred_procrustes": 0.9229248762130737,
+      "scaled_procrustes": 0.9347826242446899,
+      "probe_csls": 0.8586956262588501
+    },
+    "offset": {
+      "mean_dominance_x": 0.577927827835083,
+      "relative_offset_norm": 1.1701550483703613,
+      "target_directional_sd": 0.020508306100964546,
+      "direction_aware_offset": 0.015590738505125046
+    },
+    "regime": "cross-arch"
+  },
+  "xa/roberta->deberta": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.8952569365501404,
+      "raw_fit_procrustes": 0.8399209380149841,
+      "centred_procrustes": 1.0,
+      "scaled_procrustes": 1.0,
+      "probe_csls": 0.9960474371910095
+    },
+    "offset": {
+      "mean_dominance_x": 0.962553083896637,
+      "relative_offset_norm": 5.069953441619873,
+      "target_directional_sd": 0.012692280113697052,
+      "direction_aware_offset": 0.012452368624508381
+    },
+    "regime": "cross-arch"
+  },
+  "xa/roberta->electra": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.17490118741989136,
+      "raw_fit_procrustes": 0.7114624381065369,
+      "centred_procrustes": 0.95652174949646,
+      "scaled_procrustes": 0.9792490005493164,
+      "probe_csls": 0.6126482486724854
+    },
+    "offset": {
+      "mean_dominance_x": 0.962553083896637,
+      "relative_offset_norm": 5.069953441619873,
+      "target_directional_sd": 0.011166375130414963,
+      "direction_aware_offset": 0.010955306701362133
+    },
+    "regime": "cross-arch"
+  },
+  "xa/deberta->electra": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.33102765679359436,
+      "raw_fit_procrustes": 0.945652186870575,
+      "centred_procrustes": 0.9752964377403259,
+      "scaled_procrustes": 0.9772727489471436,
+      "probe_csls": 0.8221343755722046
+    },
+    "offset": {
+      "mean_dominance_x": 0.8709378242492676,
+      "relative_offset_norm": 2.597729444503784,
+      "target_directional_sd": 0.0184312891215086,
+      "direction_aware_offset": 0.01720082201063633
+    },
+    "regime": "cross-arch"
+  },
+  "xa/multili->LaBSE": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0019762846641242504,
+      "probe": 1.0,
+      "raw_fit_procrustes": 0.9160078763961792,
+      "centred_procrustes": 1.0,
+      "scaled_procrustes": 1.0,
+      "probe_csls": 1.0
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.023540910333395004,
+      "direction_aware_offset": 0.020270096138119698
+    },
+    "regime": "cross-arch"
+  }
+}

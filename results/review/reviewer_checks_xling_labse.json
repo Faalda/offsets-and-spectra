@@ -1,0 +1,529 @@
+{
+  "labse/de": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.9723320007324219,
+      "raw_fit_procrustes": 0.9911067485809326,
+      "centred_procrustes": 0.9940711259841919,
+      "scaled_procrustes": 0.9930830001831055,
+      "probe_csls": 0.992094874382019
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.025768764317035675,
+      "direction_aware_offset": 0.016264617443084717
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/ru": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.9308300614356995,
+      "raw_fit_procrustes": 0.9179841876029968,
+      "centred_procrustes": 0.9723320007324219,
+      "scaled_procrustes": 0.970355749130249,
+      "probe_csls": 0.9752964377403259
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.037078700959682465,
+      "direction_aware_offset": 0.023403173312544823
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/ar": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0,
+      "probe": 0.6946640610694885,
+      "raw_fit_procrustes": 0.801383376121521,
+      "centred_procrustes": 0.8083003759384155,
+      "scaled_procrustes": 0.8132411241531372,
+      "probe_csls": 0.7954545617103577
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.028374934569001198,
+      "direction_aware_offset": 0.017909569665789604
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/zh": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.9011857509613037,
+      "raw_fit_procrustes": 0.9792490005493164,
+      "centred_procrustes": 0.9861660003662109,
+      "scaled_procrustes": 0.9911067485809326,
+      "probe_csls": 0.945652186870575
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.024187009781599045,
+      "direction_aware_offset": 0.015266249887645245
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/fr": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0019762846641242504,
+      "probe": 0.75,
+      "raw_fit_procrustes": 0.9624505639076233,
+      "centred_procrustes": 0.9644268751144409,
+      "scaled_procrustes": 0.9861660003662109,
+      "probe_csls": 0.9169960618019104
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.048001162707805634,
+      "direction_aware_offset": 0.030297167599201202
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/es": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.9515810012817383,
+      "raw_fit_procrustes": 0.9851778745651245,
+      "centred_procrustes": 0.9861660003662109,
+      "scaled_procrustes": 0.9841897487640381,
+      "probe_csls": 0.9832015633583069
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.02125372178852558,
+      "direction_aware_offset": 0.013414829969406128
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/it": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0019762846641242504,
+      "probe": 0.8142292499542236,
+      "raw_fit_procrustes": 0.8794466257095337,
+      "centred_procrustes": 0.8922924995422363,
+      "scaled_procrustes": 0.9061264991760254,
+      "probe_csls": 0.8853754997253418
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.02945776842534542,
+      "direction_aware_offset": 0.01859302632510662
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/pt": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.9723320007324219,
+      "raw_fit_procrustes": 0.9881423115730286,
+      "centred_procrustes": 0.9940711259841919,
+      "scaled_procrustes": 0.9960474371910095,
+      "probe_csls": 0.9950593113899231
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.03392104059457779,
+      "direction_aware_offset": 0.021410131826996803
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/nl": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0,
+      "probe": 0.926877498626709,
+      "raw_fit_procrustes": 0.9752964377403259,
+      "centred_procrustes": 0.97826087474823,
+      "scaled_procrustes": 0.9792490005493164,
+      "probe_csls": 0.9654150009155273
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.026750991120934486,
+      "direction_aware_offset": 0.0168845746666193
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/tr": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0,
+      "probe": 0.9407114386558533,
+      "raw_fit_procrustes": 0.9911067485809326,
+      "centred_procrustes": 0.9950593113899231,
+      "scaled_procrustes": 0.992094874382019,
+      "probe_csls": 0.992094874382019
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.03069644421339035,
+      "direction_aware_offset": 0.019374845549464226
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/fi": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0019762846641242504,
+      "probe": 0.959486186504364,
+      "raw_fit_procrustes": 0.9604743123054504,
+      "centred_procrustes": 0.9841897487640381,
+      "scaled_procrustes": 0.9871541261672974,
+      "probe_csls": 0.9871541261672974
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.03349314257502556,
+      "direction_aware_offset": 0.02114005573093891
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/fa": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.9416996240615845,
+      "raw_fit_procrustes": 0.9723320007324219,
+      "centred_procrustes": 0.9832015633583069,
+      "scaled_procrustes": 0.9841897487640381,
+      "probe_csls": 0.9792490005493164
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.03436305746436119,
+      "direction_aware_offset": 0.021689126268029213
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/ja": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0,
+      "probe": 0.926877498626709,
+      "raw_fit_procrustes": 0.9762845635414124,
+      "centred_procrustes": 0.9822134375572205,
+      "scaled_procrustes": 0.9841897487640381,
+      "probe_csls": 0.9723320007324219
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.021718082949519157,
+      "direction_aware_offset": 0.013707923702895641
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/ko": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.002964426763355732,
+      "probe": 0.9278656244277954,
+      "raw_fit_procrustes": 0.9436758756637573,
+      "centred_procrustes": 0.9733201861381531,
+      "scaled_procrustes": 0.9733201861381531,
+      "probe_csls": 0.967391312122345
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.0365300215780735,
+      "direction_aware_offset": 0.02305685728788376
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/pl": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0019762846641242504,
+      "probe": 0.9743083119392395,
+      "raw_fit_procrustes": 0.9575098752975464,
+      "centred_procrustes": 0.9851778745651245,
+      "scaled_procrustes": 0.9822134375572205,
+      "probe_csls": 0.9940711259841919
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.04071928560733795,
+      "direction_aware_offset": 0.025701018050312996
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/sv": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.002964426763355732,
+      "probe": 0.9644268751144409,
+      "raw_fit_procrustes": 0.9911067485809326,
+      "centred_procrustes": 0.992094874382019,
+      "scaled_procrustes": 0.9930830001831055,
+      "probe_csls": 0.9881423115730286
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.025003422051668167,
+      "direction_aware_offset": 0.015781551599502563
+    },
+    "regime": "cross-lingual"
+  },
+  "labse/id": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0,
+      "probe": 0.9654150009155273,
+      "raw_fit_procrustes": 0.9743083119392395,
+      "centred_procrustes": 0.9871541261672974,
+      "scaled_procrustes": 0.9871541261672974,
+      "probe_csls": 0.989130437374115
+    },
+    "offset": {
+      "mean_dominance_x": 0.39838260412216187,
+      "relative_offset_norm": 0.8137480616569519,
+      "target_directional_sd": 0.033477235585451126,
+      "direction_aware_offset": 0.02113000862300396
+    },
+    "regime": "cross-lingual"
+  }
+}

@@ -1,0 +1,228 @@
+{
+ "pairing_check": {
+  "audio_vs_text_structure_spearman": 0.583645994321653,
+  "shuffled_control": -0.0022145951239935114
+ },
+ "mean_p1_over_5_splits": {
+  "probe": 0.05763358734548092,
+  "raw_fit_procrustes": 0.21450381577014924,
+  "centred_procrustes": 0.3958015263080597,
+  "scaled_procrustes": 0.9335878014564514,
+  "cca_selected": 0.9927480936050415,
+  "cca_fixed_0.001": 0.9770992398262024,
+  "cca_large_10": 0.3984732925891876,
+  "probe_csls": 0.12404580265283585
+ },
+ "splits": {
+  "librispeech/whisper-validframes->xlmr(dataset-order text)/s0": {
+   "shape": {
+    "train": [
+     2096,
+     1280
+    ],
+    "target_train": [
+     2096,
+     1024
+    ],
+    "test": [
+     524,
+     1280
+    ]
+   },
+   "p1": {
+    "probe": 0.030534351244568825,
+    "raw_fit_procrustes": 0.20801526308059692,
+    "centred_procrustes": 0.36259540915489197,
+    "scaled_procrustes": 0.9217557311058044,
+    "cca_selected": 0.9961832165718079,
+    "cca_fixed_0.001": 0.9790076613426208,
+    "cca_large_10": 0.3664122223854065,
+    "probe_csls": 0.07061068713665009
+   },
+   "selected_lambda": 0.0001,
+   "validation_curve": {
+    "1e-05": 0.9809069037437439,
+    "0.0001": 0.9856801629066467,
+    "0.001": 0.9665871262550354,
+    "0.01": 0.8448687195777893,
+    "0.1": 0.5346062183380127,
+    "1.0": 0.40334129333496094,
+    "10.0": 0.3937947452068329
+   },
+   "offset": {
+    "mean_dominance_x": 0.8506596088409424,
+    "relative_offset_norm": 2.386652708053589,
+    "target_directional_sd": 0.005278383381664753,
+    "direction_aware_offset": 0.004772805143147707
+   }
+  },
+  "librispeech/whisper-validframes->xlmr(dataset-order text)/s1": {
+   "shape": {
+    "train": [
+     2096,
+     1280
+    ],
+    "target_train": [
+     2096,
+     1024
+    ],
+    "test": [
+     524,
+     1280
+    ]
+   },
+   "p1": {
+    "probe": 0.07442747801542282,
+    "raw_fit_procrustes": 0.22328244149684906,
+    "centred_procrustes": 0.4236641228199005,
+    "scaled_procrustes": 0.9465649127960205,
+    "cca_selected": 0.9961832165718079,
+    "cca_fixed_0.001": 0.9847328066825867,
+    "cca_large_10": 0.4293893277645111,
+    "probe_csls": 0.14885495603084564
+   },
+   "selected_lambda": 0.0001,
+   "validation_curve": {
+    "1e-05": 0.9904534816741943,
+    "0.0001": 0.9952267408370972,
+    "0.001": 0.9809069037437439,
+    "0.01": 0.8568019270896912,
+    "0.1": 0.584725558757782,
+    "1.0": 0.49164676666259766,
+    "10.0": 0.4797135889530182
+   },
+   "offset": {
+    "mean_dominance_x": 0.8508581519126892,
+    "relative_offset_norm": 2.388519287109375,
+    "target_directional_sd": 0.00510900653898716,
+    "direction_aware_offset": 0.00459305290132761
+   }
+  },
+  "librispeech/whisper-validframes->xlmr(dataset-order text)/s2": {
+   "shape": {
+    "train": [
+     2096,
+     1280
+    ],
+    "target_train": [
+     2096,
+     1024
+    ],
+    "test": [
+     524,
+     1280
+    ]
+   },
+   "p1": {
+    "probe": 0.051526717841625214,
+    "raw_fit_procrustes": 0.21755725145339966,
+    "centred_procrustes": 0.3664122223854065,
+    "scaled_procrustes": 0.9217557311058044,
+    "cca_selected": 0.9885495901107788,
+    "cca_fixed_0.001": 0.9713740348815918,
+    "cca_large_10": 0.3664122223854065,
+    "probe_csls": 0.10687022656202316
+   },
+   "selected_lambda": 0.0001,
+   "validation_curve": {
+    "1e-05": 0.9832935333251953,
+    "0.0001": 0.9904534816741943,
+    "0.001": 0.9761336445808411,
+    "0.01": 0.8568019270896912,
+    "0.1": 0.5465393662452698,
+    "1.0": 0.43914079666137695,
+    "10.0": 0.4272076487541199
+   },
+   "offset": {
+    "mean_dominance_x": 0.8505141139030457,
+    "relative_offset_norm": 2.385286569595337,
+    "target_directional_sd": 0.005021442659199238,
+    "direction_aware_offset": 0.004531453363597393
+   }
+  },
+  "librispeech/whisper-validframes->xlmr(dataset-order text)/s3": {
+   "shape": {
+    "train": [
+     2096,
+     1280
+    ],
+    "target_train": [
+     2096,
+     1024
+    ],
+    "test": [
+     524,
+     1280
+    ]
+   },
+   "p1": {
+    "probe": 0.07633587718009949,
+    "raw_fit_procrustes": 0.21374045312404633,
+    "centred_procrustes": 0.4198473393917084,
+    "scaled_procrustes": 0.9370229244232178,
+    "cca_selected": 0.9923664331436157,
+    "cca_fixed_0.001": 0.9732824563980103,
+    "cca_large_10": 0.42175573110580444,
+    "probe_csls": 0.16603054106235504
+   },
+   "selected_lambda": 0.0001,
+   "validation_curve": {
+    "1e-05": 0.9904534816741943,
+    "0.0001": 0.9952267408370972,
+    "0.001": 0.9832935333251953,
+    "0.01": 0.8353222012519836,
+    "0.1": 0.5417661070823669,
+    "1.0": 0.3985680043697357,
+    "10.0": 0.3770883083343506
+   },
+   "offset": {
+    "mean_dominance_x": 0.851056694984436,
+    "relative_offset_norm": 2.3903894424438477,
+    "target_directional_sd": 0.004925915505737066,
+    "direction_aware_offset": 0.0044523063115775585
+   }
+  },
+  "librispeech/whisper-validframes->xlmr(dataset-order text)/s4": {
+   "shape": {
+    "train": [
+     2096,
+     1280
+    ],
+    "target_train": [
+     2096,
+     1024
+    ],
+    "test": [
+     524,
+     1280
+    ]
+   },
+   "p1": {
+    "probe": 0.05534351244568825,
+    "raw_fit_procrustes": 0.2099236696958542,
+    "centred_procrustes": 0.4064885377883911,
+    "scaled_procrustes": 0.9408397078514099,
+    "cca_selected": 0.9904580116271973,
+    "cca_fixed_0.001": 0.9770992398262024,
+    "cca_large_10": 0.40839695930480957,
+    "probe_csls": 0.1278626024723053
+   },
+   "selected_lambda": 0.0001,
+   "validation_curve": {
+    "1e-05": 0.9880668520927429,
+    "0.0001": 0.9952267408370972,
+    "0.001": 0.9737470149993896,
+    "0.01": 0.818615734577179,
+    "0.1": 0.49403342604637146,
+    "1.0": 0.3937947452068329,
+    "10.0": 0.37231504917144775
+   },
+   "offset": {
+    "mean_dominance_x": 0.8515015840530396,
+    "relative_offset_norm": 2.3945932388305664,
+    "target_directional_sd": 0.005308411084115505,
+    "direction_aware_offset": 0.004773017019033432
+   }
+  }
+ }
+}

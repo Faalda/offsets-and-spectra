@@ -1,0 +1,16 @@
+{
+ "n_items": 800,
+ "librispeech_padded_pooling_old": {
+  "audio_vs_text_spearman": 0.3845708308541257,
+  "shuffled_text_control": -0.0010163197476478242
+ },
+ "librispeech_valid_frames_new": {
+  "audio_vs_text_spearman": 0.0013355647760424328,
+  "shuffled_text_control": -0.0013994265133168975
+ },
+ "slurp_valid_frames": {
+  "audio_vs_text_spearman": 0.18477068472122554,
+  "shuffled_text_control": 0.0011331439921146548
+ },
+ "old_audio_vs_new_audio_spearman": 0.005572493137493449
+}

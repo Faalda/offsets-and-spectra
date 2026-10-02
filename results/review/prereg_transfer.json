@@ -1,0 +1,12 @@
+{
+ "frozen_at": "2026-10-01 13:50:38",
+ "batch": "6: label-free affine (CORAL) matching of mapped features to the English head's training distribution, MASSIVE zero-shot intent transfer, 12 languages",
+ "status_at_freeze": "script written and syntax-checked only; never run; no result of any matched map seen. Known beforehand (Table 3): base maps' accuracies, e.g. centred Procrustes 0.325, CCA top-k 0.329.",
+ "criteria": "T1 (primary): mean accuracy gain of ortho-centred+CORAL(rho=0.01) over ortho-centred, averaged over 12 languages, >= 0.02 with 95% bootstrap CI over languages (4000) excluding 0. T2: does the matched map exceed the best existing label-free map (CCA top-k, mean 0.329)? T3: report FLORES retrieval P@1. Sensitivity rho in {0.001, 0.1}. Matching statistics come from FLORES dev only (label-free); head = English MASSIVE logistic regression.",
+ "sha256": {
+  "transfer_match.py": "2d373da1b17d58fe61ac7f772a2f5b4f4d31807fc987461682624fa954bb5774",
+  "transfer.py": "f16d698957d3e93ccd4dd218174633c30fc513a1a23220559c0bc8a11ca3cba1",
+  "common.py": "2d03f92d09e74800f8a08dc322f6aa79b4e32aa65e51b1dac5c718b7cbb28eaf"
+ },
+ "sha256_transfer_v2_json": "a2ede725d00ec8545517ffb1b7d7fdeeb46cca7a2054190eb613a88f16ce73b2"
+}

@@ -1,0 +1,120 @@
+{
+ "P1 image->text CCA<0.5 on every gap": {
+  "values": {
+   "coco/dinov2->bert": 0.158,
+   "coco/dinov2->e5": 0.271,
+   "coco/dinov2->mpnet": 0.264,
+   "coco/vit->bert": 0.151,
+   "coco/vit->e5": 0.232,
+   "coco/vit->mpnet": 0.234,
+   "coco/convnext->bert": 0.202,
+   "coco/convnext->e5": 0.343,
+   "coco/convnext->mpnet": 0.355
+  },
+  "pass": true
+ },
+ "P2 hub skew after CCA >2 on majority (image->text)": {
+  "values": {
+   "coco/dinov2->bert": 3.6,
+   "coco/dinov2->e5": 2.66,
+   "coco/dinov2->mpnet": 3.4,
+   "coco/vit->bert": 2.71,
+   "coco/vit->e5": 2.39,
+   "coco/vit->mpnet": 3.58,
+   "coco/convnext->bert": 3.32,
+   "coco/convnext->e5": 2.45,
+   "coco/convnext->mpnet": 3.04
+  },
+  "pass": true
+ },
+ "P3 image->image CCA>0.8 and centred skew<1.5 on majority": {
+  "values": {
+   "coco/dinov2->vit": [
+    0.702,
+    3.79
+   ],
+   "coco/dinov2->convnext": [
+    0.941,
+    3.5
+   ],
+   "coco/vit->convnext": [
+    0.919,
+    3.35
+   ]
+  },
+  "pass": false
+ },
+ "P4 rule regret<=0.01 (COCO batch)": {
+  "mean": 0.010083332657814026,
+  "max": 0.04799997806549072,
+  "pass": false
+ },
+ "P5 sentiment: rho(P@1,acc)<0.5 AND best map in {centred rotation, CCA-k}": {
+  "rho": 0.08571428571428573,
+  "best": "ridge",
+  "pass": false
+ },
+ "P6 language-trained image encoders beat every independent one (per text target)": {
+  "values(laya, best independent)": {
+   "laya-tower->bert": [
+    0.242,
+    0.202
+   ],
+   "laya-connector->bert": [
+    0.249,
+    0.202
+   ],
+   "laya-tower->e5": [
+    0.425,
+    0.343
+   ],
+   "laya-connector->e5": [
+    0.433,
+    0.343
+   ],
+   "laya-tower->mpnet": [
+    0.423,
+    0.355
+   ],
+   "laya-connector->mpnet": [
+    0.407,
+    0.355
+   ]
+  },
+  "pass": true
+ },
+ "P7 fine-tune gap ID>=0.5": {
+  "ID": 0.03209628909826279,
+  "pass": false
+ },
+ "P8 text pattern (CCA>=0.9, centring>=80% of gain) on majority": {
+  "values": {
+   "laya/laya-modernbert->bert": {
+    "cca": 0.964,
+    "centring_share": 0.735,
+    "ok": false
+   },
+   "laya/laya-modernbert->e5": {
+    "cca": 0.97,
+    "centring_share": 0.735,
+    "ok": false
+   },
+   "laya/qwen3->bert": {
+    "cca": 0.98,
+    "centring_share": 0.963,
+    "ok": true
+   },
+   "laya/qwen3->e5": {
+    "cca": 0.983,
+    "centring_share": 0.955,
+    "ok": true
+   }
+  },
+  "pass": false
+ },
+ "P9 rule regret<=0.01 (Laya batch)": {
+  "mean": 0.0084551595724546,
+  "max": 0.08600002527236938,
+  "pass": true
+ }
+}

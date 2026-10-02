@@ -1,0 +1,529 @@
+{
+  "e5/de": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0,
+      "probe": 0.9328063130378723,
+      "raw_fit_procrustes": 0.9160078763961792,
+      "centred_procrustes": 0.9841897487640381,
+      "scaled_procrustes": 0.9841897487640381,
+      "probe_csls": 0.9723320007324219
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.015097246505320072,
+      "direction_aware_offset": 0.012999610044062138
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/ru": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0019762846641242504,
+      "probe": 0.8389328122138977,
+      "raw_fit_procrustes": 0.5276679992675781,
+      "centred_procrustes": 0.9693675637245178,
+      "scaled_procrustes": 0.9644268751144409,
+      "probe_csls": 0.9575098752975464
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.022380508482456207,
+      "direction_aware_offset": 0.019270922988653183
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/ar": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.5592885613441467,
+      "raw_fit_procrustes": 0.5899209380149841,
+      "centred_procrustes": 0.752964437007904,
+      "scaled_procrustes": 0.7549406886100769,
+      "probe_csls": 0.7213438749313354
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.016352340579032898,
+      "direction_aware_offset": 0.014080318622291088
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/zh": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0,
+      "probe": 0.8695651888847351,
+      "raw_fit_procrustes": 0.8725296258926392,
+      "centred_procrustes": 0.9822134375572205,
+      "scaled_procrustes": 0.9792490005493164,
+      "probe_csls": 0.9397233128547668
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.012953255325555801,
+      "direction_aware_offset": 0.01115350890904665
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/fr": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.8705533742904663,
+      "raw_fit_procrustes": 0.8171936869621277,
+      "centred_procrustes": 0.9604743123054504,
+      "scaled_procrustes": 0.9822134375572205,
+      "probe_csls": 0.948616623878479
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.01664508506655693,
+      "direction_aware_offset": 0.01433238759636879
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/es": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0019762846641242504,
+      "probe": 0.9229248762130737,
+      "raw_fit_procrustes": 0.9298418760299683,
+      "centred_procrustes": 0.981225311756134,
+      "scaled_procrustes": 0.9802371263504028,
+      "probe_csls": 0.9634387493133545
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.012086737900972366,
+      "direction_aware_offset": 0.01040738821029663
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/it": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0,
+      "probe": 0.6837944388389587,
+      "raw_fit_procrustes": 0.6432806253433228,
+      "centred_procrustes": 0.8824110627174377,
+      "scaled_procrustes": 0.8853754997253418,
+      "probe_csls": 0.7954545617103577
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.016485068947076797,
+      "direction_aware_offset": 0.014194606803357601
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/pt": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.95652174949646,
+      "raw_fit_procrustes": 0.8211462497711182,
+      "centred_procrustes": 0.9930830001831055,
+      "scaled_procrustes": 0.9930830001831055,
+      "probe_csls": 0.9930830001831055
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.019574487581849098,
+      "direction_aware_offset": 0.016854774206876755
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/nl": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.8507905006408691,
+      "raw_fit_procrustes": 0.7994071245193481,
+      "centred_procrustes": 0.9644268751144409,
+      "scaled_procrustes": 0.9614624381065369,
+      "probe_csls": 0.9407114386558533
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.014713713899254799,
+      "direction_aware_offset": 0.012669363059103489
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/tr": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.9031620621681213,
+      "raw_fit_procrustes": 0.926877498626709,
+      "centred_procrustes": 0.9851778745651245,
+      "scaled_procrustes": 0.9861660003662109,
+      "probe_csls": 0.9743083119392395
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.015490269288420677,
+      "direction_aware_offset": 0.013338025659322739
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/fi": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0,
+      "probe": 0.9150197505950928,
+      "raw_fit_procrustes": 0.760869562625885,
+      "centred_procrustes": 0.9762845635414124,
+      "scaled_procrustes": 0.9743083119392395,
+      "probe_csls": 0.9762845635414124
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.019395573064684868,
+      "direction_aware_offset": 0.01670071855187416
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/fa": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.8695651888847351,
+      "raw_fit_procrustes": 0.6581027507781982,
+      "centred_procrustes": 0.970355749130249,
+      "scaled_procrustes": 0.967391312122345,
+      "probe_csls": 0.9575098752975464
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.018979599699378014,
+      "direction_aware_offset": 0.016342537477612495
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/ja": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.8863636255264282,
+      "raw_fit_procrustes": 0.9515810012817383,
+      "centred_procrustes": 0.9832015633583069,
+      "scaled_procrustes": 0.9832015633583069,
+      "probe_csls": 0.9614624381065369
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.012310903519392014,
+      "direction_aware_offset": 0.010600406676530838
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/ko": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.9150197505950928,
+      "raw_fit_procrustes": 0.6254940629005432,
+      "centred_procrustes": 0.9752964377403259,
+      "scaled_procrustes": 0.9762845635414124,
+      "probe_csls": 0.9723320007324219
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.020306680351495743,
+      "direction_aware_offset": 0.017485234886407852
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/pl": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.9239130616188049,
+      "raw_fit_procrustes": 0.7193675637245178,
+      "centred_procrustes": 0.9733201861381531,
+      "scaled_procrustes": 0.9762845635414124,
+      "probe_csls": 0.9861660003662109
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.023180890828371048,
+      "direction_aware_offset": 0.01996009796857834
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/sv": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0009881423320621252,
+      "probe": 0.9258893132209778,
+      "raw_fit_procrustes": 0.9100790619850159,
+      "centred_procrustes": 0.9911067485809326,
+      "scaled_procrustes": 0.9881423115730286,
+      "probe_csls": 0.9743083119392395
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.01436593011021614,
+      "direction_aware_offset": 0.012369903735816479
+    },
+    "regime": "cross-lingual"
+  },
+  "e5/id": {
+    "shape": {
+      "train": [
+        997,
+        768
+      ],
+      "target_train": [
+        997,
+        768
+      ],
+      "test": [
+        1012,
+        768
+      ]
+    },
+    "p1": {
+      "identity_native": 0.0,
+      "probe": 0.9051383137702942,
+      "raw_fit_procrustes": 0.8349802494049072,
+      "centred_procrustes": 0.9693675637245178,
+      "scaled_procrustes": 0.9693675637245178,
+      "probe_csls": 0.9733201861381531
+    },
+    "offset": {
+      "mean_dominance_x": 0.7414214015007019,
+      "relative_offset_norm": 1.6933091878890991,
+      "target_directional_sd": 0.018908344209194183,
+      "direction_aware_offset": 0.016281185671687126
+    },
+    "regime": "cross-lingual"
+  }
+}

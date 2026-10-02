@@ -1,0 +1,88 @@
+{
+  "transfer_rank_agreement": {
+    "methods": [
+      "ortho",
+      "ortho-centred",
+      "cca",
+      "cca-k",
+      "ridge",
+      "mlp-nce"
+    ],
+    "massive": {
+      "rho": 0.8285714285714287,
+      "p_two_sided": 0.04156268221574335,
+      "n": 6
+    },
+    "sentiment": {
+      "rho": 0.08571428571428573,
+      "p_two_sided": 0.8717434402332361,
+      "n": 6
+    }
+  },
+  "H1_preregistered_gap_level": {
+    "rho": 0.5743825452416574,
+    "p_one_sided": 0.0006955433342898059,
+    "n": 28,
+    "pass": true
+  },
+  "H1_posthoc_source_family_means": {
+    "distinct_source_values": 4,
+    "values": [
+      {
+        "mean_dominance": 0.08412782847881317,
+        "mean_centring_gain": 0.05521972389782176,
+        "gaps": 17
+      },
+      {
+        "mean_dominance": 0.7414214015007019,
+        "mean_centring_gain": 0.12252964824438095,
+        "gaps": 8
+      },
+      {
+        "mean_dominance": 0.9959874749183655,
+        "mean_centring_gain": 0.12454250548034906,
+        "gaps": 2
+      },
+      {
+        "mean_dominance": 0.9213007092475891,
+        "mean_centring_gain": 0.08680946845561266,
+        "gaps": 1
+      }
+    ],
+    "spearman": {
+      "rho": 0.7999999999999999,
+      "p_two_sided": 0.2000000000000001,
+      "n": 4
+    }
+  },
+  "H1_posthoc_without_slurp": {
+    "rho": 0.5530512281885264,
+    "p_two_sided": 0.004138366189844664,
+    "n": 25
+  },
+  "H2_preregistered": {
+    "rho": 0.3170865754794443,
+    "p_one_sided": 0.05007683907733497,
+    "n": 28,
+    "pass": false,
+    "mpnet/": {
+      "rho": 0.32843137254901966,
+      "p_one_sided": 0.09903446593438602,
+      "n": 17
+    },
+    "e5/": {
+      "rho": 0.5149792926227014,
+      "p_one_sided": 0.09577465670793289,
+      "n": 8
+    }
+  },
+  "within_text_whitening_gain": {
+    "n": 41,
+    "median": 0.001976311206817627,
+    "q1": -0.0009881258010864258,
+    "q3": 0.006916999816894531,
+    "minimum": -0.026679813861846924,
+    "maximum": 0.05533599853515625,
+    "within_abs_0_01": 28
+  }
+}
