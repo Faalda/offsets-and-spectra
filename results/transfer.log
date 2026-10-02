@@ -1,66 +1,0 @@
-English head trained on 4000 utts, 42 intents
-Generating train split:   0%|          | 0/11514 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 11514/11514 [00:00<00:00, 764048.54 examples/s]
-Generating validation split:   0%|          | 0/2033 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 2033/2033 [00:00<00:00, 383478.14 examples/s]
-Generating test split:   0%|          | 0/2974 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2974/2974 [00:00<00:00, 569999.09 examples/s]
-en-de: no-align 0.060 | ortho(ours) 0.114 | supervised 0.315
-Generating train split:   0%|          | 0/11514 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 11514/11514 [00:00<00:00, 461068.30 examples/s]
-Generating validation split:   0%|          | 0/2033 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 2033/2033 [00:00<00:00, 205193.47 examples/s]
-Generating test split:   0%|          | 0/2974 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2974/2974 [00:00<00:00, 270600.26 examples/s]
-Some weights of BertModel were not initialized from the model checkpoint at dccuchile/bert-base-spanish-wwm-cased and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-Some weights of BertModel were not initialized from the model checkpoint at dccuchile/bert-base-spanish-wwm-cased and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-en-es: no-align 0.042 | ortho(ours) 0.100 | supervised 0.321
-Generating train split:   0%|          | 0/11514 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 11514/11514 [00:00<00:00, 429383.72 examples/s]
-Generating validation split:   0%|          | 0/2033 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 2033/2033 [00:00<00:00, 189224.42 examples/s]
-Generating test split:   0%|          | 0/2974 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2974/2974 [00:00<00:00, 269152.23 examples/s]
-en-fr: no-align 0.060 | ortho(ours) 0.166 | supervised 0.324
-Generating train split:   0%|          | 0/11514 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 11514/11514 [00:00<00:00, 468352.35 examples/s]
-Generating validation split:   0%|          | 0/2033 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 2033/2033 [00:00<00:00, 210149.35 examples/s]
-Generating test split:   0%|          | 0/2974 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2974/2974 [00:00<00:00, 295442.08 examples/s]
-en-it: no-align 0.059 | ortho(ours) 0.139 | supervised 0.320
-Generating train split:   0%|          | 0/11514 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 11514/11514 [00:00<00:00, 480051.85 examples/s]
-Generating validation split:   0%|          | 0/2033 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 2033/2033 [00:00<00:00, 196760.74 examples/s]
-Generating test split:   0%|          | 0/2974 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2974/2974 [00:00<00:00, 277455.85 examples/s]
-en-pt: no-align 0.027 | ortho(ours) 0.237 | supervised 0.335
-Generating train split:   0%|          | 0/11514 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 11514/11514 [00:00<00:00, 674486.26 examples/s]
-Generating validation split:   0%|          | 0/2033 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 2033/2033 [00:00<00:00, 337703.76 examples/s]
-Generating test split:   0%|          | 0/2974 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2974/2974 [00:00<00:00, 477157.83 examples/s]
-Some weights of BertModel were not initialized from the model checkpoint at GroNLP/bert-base-dutch-cased and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-Some weights of BertModel were not initialized from the model checkpoint at GroNLP/bert-base-dutch-cased and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-en-nl: no-align 0.039 | ortho(ours) 0.197 | supervised 0.320
-Generating train split:   0%|          | 0/11514 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 11514/11514 [00:00<00:00, 475724.93 examples/s]
-Generating validation split:   0%|          | 0/2033 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 2033/2033 [00:00<00:00, 190233.36 examples/s]
-Generating test split:   0%|          | 0/2974 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2974/2974 [00:00<00:00, 283361.58 examples/s]
-en-tr: no-align 0.042 | ortho(ours) 0.185 | supervised 0.336
-Generating train split:   0%|          | 0/11514 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 11514/11514 [00:00<00:00, 468838.87 examples/s]
-Generating validation split:   0%|          | 0/2033 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 2033/2033 [00:00<00:00, 210221.88 examples/s]
-Generating test split:   0%|          | 0/2974 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2974/2974 [00:00<00:00, 304954.53 examples/s]
-en-fi: no-align 0.043 | ortho(ours) 0.235 | supervised 0.343
-Generating train split:   0%|          | 0/11514 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 11514/11514 [00:00<00:00, 433150.21 examples/s]
-Generating validation split:   0%|          | 0/2033 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 2033/2033 [00:00<00:00, 201384.44 examples/s]
-Generating test split:   0%|          | 0/2974 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2974/2974 [00:00<00:00, 279451.13 examples/s]
-Some weights of the model checkpoint at DeepPavlov/rubert-base-cased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.decoder.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
-- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
-- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
-Some weights of the model checkpoint at DeepPavlov/rubert-base-cased were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.decoder.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
-- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
-- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
-en-ru: no-align 0.032 | ortho(ours) 0.158 | supervised 0.326
-Generating train split:   0%|          | 0/11514 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 11514/11514 [00:00<00:00, 458468.29 examples/s]
-Generating validation split:   0%|          | 0/2033 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 2033/2033 [00:00<00:00, 201327.38 examples/s]
-Generating test split:   0%|          | 0/2974 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2974/2974 [00:00<00:00, 263011.79 examples/s]
-en-ar: no-align 0.052 | ortho(ours) 0.141 | supervised 0.308
-Generating train split:   0%|          | 0/11514 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 11514/11514 [00:00<00:00, 454161.06 examples/s]
-Generating validation split:   0%|          | 0/2033 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 2033/2033 [00:00<00:00, 201570.10 examples/s]
-Generating test split:   0%|          | 0/2974 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2974/2974 [00:00<00:00, 280955.45 examples/s]
-en-zh: no-align 0.059 | ortho(ours) 0.207 | supervised 0.340
-Generating train split:   0%|          | 0/11514 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 11514/11514 [00:00<00:00, 460154.51 examples/s]
-Generating validation split:   0%|          | 0/2033 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 2033/2033 [00:00<00:00, 204455.47 examples/s]
-Generating test split:   0%|          | 0/2974 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 2974/2974 [00:00<00:00, 271454.13 examples/s]
-en-fa: no-align 0.037 | ortho(ours) 0.167 | supervised 0.334
-
-AVG  no-align 0.046 | ortho(ours) 0.170 | supervised 0.327
-saved results/transfer/summary.json
