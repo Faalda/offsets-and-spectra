@@ -72,12 +72,6 @@ revisions used for the batch-3 checkpoints are listed in the paper's appendix.
   tweets of the XLM-T sentiment benchmark and the speech corpora LibriSpeech and SLURP) may contain personal or
   sensitive content and must be obtained from their original providers under their own terms.
 
-## Earlier components
-
-The `dsv/` package and the earlier staged experiments (`experiments/*.py`, `images/`) implement the controller family
-studied before this paper; they are documented in [`docs/CONTROLLERS.md`](docs/CONTROLLERS.md) and are not needed to
-reproduce the results above.
-
 ## License
 
 MIT; see `LICENSE`.

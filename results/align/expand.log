@@ -1,38 +1,0 @@
-en-de: ortho 0.933 | +shift 0.907 | linear-ls 0.666 | lowrank 0.006  -> intfloat_multilingual-e5-base__bert-base-german-cased
-en-ru: ortho 0.839 | +shift 0.677 | linear-ls 0.367 | lowrank 0.003  -> intfloat_multilingual-e5-base__DeepPavlov_rubert-base-cased
-en-ar: ortho 0.559 | +shift 0.570 | linear-ls 0.169 | lowrank 0.002  -> intfloat_multilingual-e5-base__CAMeL-Lab_bert-base-arabic-camelbert-da
-en-zh: ortho 0.870 | +shift 0.856 | linear-ls 0.536 | lowrank 0.002  -> intfloat_multilingual-e5-base__bert-base-chinese
-Generating dev split: 0 examples [00:00, ? examples/s]Generating dev split: 997 examples [00:00, 48604.88 examples/s]
-Generating devtest split: 0 examples [00:00, ? examples/s]Generating devtest split: 1012 examples [00:00, 52832.09 examples/s]
-en-fr: ortho 0.871 | +shift 0.803 | linear-ls 0.331 | lowrank 0.003  -> intfloat_multilingual-e5-base__camembert-base
-Generating dev split: 0 examples [00:00, ? examples/s]Generating dev split: 997 examples [00:00, 38449.43 examples/s]
-Generating devtest split: 0 examples [00:00, ? examples/s]Generating devtest split: 1012 examples [00:00, 48626.83 examples/s]
-Some weights of BertModel were not initialized from the model checkpoint at dccuchile/bert-base-spanish-wwm-cased and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-Some weights of BertModel were not initialized from the model checkpoint at dccuchile/bert-base-spanish-wwm-cased and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-en-es: ortho 0.923 | +shift 0.915 | linear-ls 0.534 | lowrank 0.002  -> intfloat_multilingual-e5-base__dccuchile_bert-base-spanish-wwm-cased
-Generating dev split: 0 examples [00:00, ? examples/s]Generating dev split: 997 examples [00:00, 36533.71 examples/s]
-Generating devtest split: 0 examples [00:00, ? examples/s]Generating devtest split: 1012 examples [00:00, 47687.18 examples/s]
-en-it: ortho 0.684 | +shift 0.636 | linear-ls 0.216 | lowrank 0.001  -> intfloat_multilingual-e5-base__dbmdz_bert-base-italian-cased
-Generating dev split: 0 examples [00:00, ? examples/s]Generating dev split: 997 examples [00:00, 38382.37 examples/s]
-Generating devtest split: 0 examples [00:00, ? examples/s]Generating devtest split: 1012 examples [00:00, 48376.33 examples/s]
-en-pt: ortho 0.957 | +shift 0.855 | linear-ls 0.708 | lowrank 0.005  -> intfloat_multilingual-e5-base__neuralmind_bert-base-portuguese-cased
-Generating dev split: 0 examples [00:00, ? examples/s]Generating dev split: 997 examples [00:00, 49021.97 examples/s]
-Generating devtest split: 0 examples [00:00, ? examples/s]Generating devtest split: 1012 examples [00:00, 47978.25 examples/s]
-Some weights of BertModel were not initialized from the model checkpoint at GroNLP/bert-base-dutch-cased and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-Some weights of BertModel were not initialized from the model checkpoint at GroNLP/bert-base-dutch-cased and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-en-nl: ortho 0.851 | +shift 0.795 | linear-ls 0.444 | lowrank 0.003  -> intfloat_multilingual-e5-base__GroNLP_bert-base-dutch-cased
-Generating dev split: 0 examples [00:00, ? examples/s]Generating dev split: 997 examples [00:00, 39672.51 examples/s]
-Generating devtest split: 0 examples [00:00, ? examples/s]Generating devtest split: 1012 examples [00:00, 47977.16 examples/s]
-en-tr: ortho 0.903 | +shift 0.922 | linear-ls 0.589 | lowrank 0.002  -> intfloat_multilingual-e5-base__dbmdz_bert-base-turkish-cased
-Generating dev split: 0 examples [00:00, ? examples/s]Generating dev split: 997 examples [00:00, 38922.54 examples/s]
-Generating devtest split: 0 examples [00:00, ? examples/s]Generating devtest split: 1012 examples [00:00, 48160.07 examples/s]
-en-fi: ortho 0.915 | +shift 0.804 | linear-ls 0.611 | lowrank 0.003  -> intfloat_multilingual-e5-base__TurkuNLP_bert-base-finnish-cased-v1
-Generating dev split: 0 examples [00:00, ? examples/s]Generating dev split: 997 examples [00:00, 37470.28 examples/s]
-Generating devtest split: 0 examples [00:00, ? examples/s]Generating devtest split: 1012 examples [00:00, 47611.22 examples/s]
-en-fa: ortho 0.870 | +shift 0.716 | linear-ls 0.434 | lowrank 0.005  -> intfloat_multilingual-e5-base__HooshvareLab_bert-base-parsbert-uncased
-
-Saved 12 pairs to results/align/  (+ summary.json)

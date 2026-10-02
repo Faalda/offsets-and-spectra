@@ -1,9 +1,0 @@
-
-Stage-3 PEFT [intent]  | backbone CAMeL-Lab/bert-base-arabic-camelbert-da (frozen, 12L, d=768)
-2677/593/893 train/val/test | 14 classes
-------------------------------------------------------------------
-method      adapter params   val MF1   test acc   test MF1
-------------------------------------------------------------------
-chgate               9,216     0.685      0.718      0.634
-------------------------------------------------------------------
-saved results/peft/intent_chgate_seed1.json
